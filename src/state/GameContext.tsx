@@ -5,7 +5,8 @@ import type { Team } from '../domain/models/Team';
 import {
   createNewGame,
   playNextRound,
-  swapStarter,
+  setFormation,
+  assignToSlot,
   buyPlayer,
   sellPlayer,
   SAVE_VERSION,
@@ -17,10 +18,11 @@ import type { GameRepository } from '../data/GameRepository';
 interface GameContextValue {
   state: GameState | null;
   availableTeams: Team[];
-  startNewGame: (userTeamId: string) => void;
+  startNewGame: (userTeamId: string, formationId?: string) => void;
   advanceRound: () => void;
   resetGame: () => void;
-  swapStarter: (outId: string, inId: string) => void;
+  setFormation: (formationId: string) => void;
+  assignToSlot: (slotIndex: number, playerId: string) => void;
   buyPlayer: (playerId: string) => void;
   sellPlayer: (playerId: string) => void;
 }
@@ -51,9 +53,9 @@ export function GameProvider({ children }: { children: ReactNode }) {
   const value: GameContextValue = {
     state,
     availableTeams,
-    startNewGame: (userTeamId) => {
+    startNewGame: (userTeamId, formationId) => {
       const teams = buildSeedTeams();
-      setState(createNewGame(teams, userTeamId, 'Stagione 2026/27'));
+      setState(createNewGame(teams, userTeamId, 'Stagione 2026/27', formationId));
     },
     advanceRound: () => {
       setState((prev) => (prev ? playNextRound(prev) : prev));
@@ -62,8 +64,11 @@ export function GameProvider({ children }: { children: ReactNode }) {
       repository.clear();
       setState(null);
     },
-    swapStarter: (outId, inId) => {
-      setState((prev) => (prev ? swapStarter(prev, outId, inId) : prev));
+    setFormation: (formationId) => {
+      setState((prev) => (prev ? setFormation(prev, formationId) : prev));
+    },
+    assignToSlot: (slotIndex, playerId) => {
+      setState((prev) => (prev ? assignToSlot(prev, slotIndex, playerId) : prev));
     },
     buyPlayer: (playerId) => {
       setState((prev) => (prev ? buyPlayer(prev, playerId) : prev));

@@ -2,16 +2,15 @@ import type { GameState } from './GameState';
 import type { Team } from '../models/Team';
 import type { Player, PlayerInMatch, Role } from '../models/Player';
 import type { Fixture } from '../models/Match';
+import type { Formation, FormationSlot } from '../models/Formation';
+import { getFormation, DEFAULT_FORMATION_ID, positionFit } from '../models/Formation';
 import { generateSchedule } from '../league/schedule';
 import { simulateMatch } from '../engine/matchEngine';
 import type { MatchResult, MatchTeam } from '../engine/matchEngine';
 
 // Incrementare quando cambia la struttura dati o il database squadre:
 // i salvataggi con versione diversa verranno scartati al caricamento.
-export const SAVE_VERSION = 4;
-
-/** Modulo titolare di default (4-3-3) usato per la selezione automatica. */
-const FORMATION: Record<Role, number> = { GK: 1, DEF: 4, MID: 3, ATT: 3 };
+export const SAVE_VERSION = 5;
 
 /** Parametri di gioco regolabili. */
 export const RULES = {
@@ -29,15 +28,21 @@ export const RULES = {
 
 // ─── Ciclo di vita della stagione ──────────────────────────────────────────
 
-export function createNewGame(teams: Team[], userTeamId: string, seasonName: string): GameState {
+export function createNewGame(
+  teams: Team[],
+  userTeamId: string,
+  seasonName: string,
+  formationId: string = DEFAULT_FORMATION_ID,
+): GameState {
   // Salviamo l'overall di partenza di ogni giocatore per mostrarne la crescita.
   const teamsWithBaseline = teams.map((t) => ({
     ...t,
     players: t.players.map((p) => ({ ...p, startOverall: p.overall })),
   }));
 
+  const formation = getFormation(formationId);
   const userTeam = teamsWithBaseline.find((t) => t.id === userTeamId);
-  const userLineup = userTeam ? selectStarters(userTeam).map((p) => p.id) : [];
+  const userLineup = userTeam ? autoLineupIds(userTeam, formation) : [];
 
   return {
     version: SAVE_VERSION,
@@ -47,6 +52,7 @@ export function createNewGame(teams: Team[], userTeamId: string, seasonName: str
     fixtures: generateSchedule(teams.map((t) => t.id)),
     currentRound: 1,
     budget: RULES.STARTING_BUDGET,
+    formation: formation.id,
     userLineup,
   };
 }
@@ -74,64 +80,108 @@ export function getUserTeam(state: GameState): Team | undefined {
 }
 
 /**
- * Selezione automatica degli 11: i migliori per ruolo secondo il modulo,
- * con completamento fino a 11 se un reparto è scoperto.
+ * Selezione automatica allineata alle caselle del modulo: ogni casella prende
+ * il miglior giocatore disponibile *del suo reparto*; le caselle scoperte vengono
+ * poi completate con il miglior giocatore rimasto pesato per adattamento (fuori
+ * ruolo). Restituisce gli id allineati: result[i] copre formation.slots[i].
  */
-export function selectStarters(team: Team): Player[] {
-  const byRole: Record<Role, Player[]> = { GK: [], DEF: [], MID: [], ATT: [] };
-  for (const p of team.players) byRole[p.role].push(p);
-  for (const role of Object.keys(byRole) as Role[]) {
-    byRole[role].sort((a, b) => b.overall - a.overall);
-  }
-
-  const starters: Player[] = [];
+export function autoLineupIds(team: Team, formation: Formation): string[] {
+  const ids: (string | null)[] = formation.slots.map(() => null);
   const used = new Set<string>();
-  for (const role of Object.keys(FORMATION) as Role[]) {
-    for (const p of byRole[role].slice(0, FORMATION[role])) {
-      starters.push(p);
-      used.add(p.id);
+  const available = () => team.players.filter((p) => !used.has(p.id));
+
+  // 1° passaggio: assegna in ruolo, dalle caselle al miglior giocatore del reparto.
+  formation.slots.forEach((slot, i) => {
+    const best = available()
+      .filter((p) => p.role === slot.role)
+      .sort((a, b) => b.overall - a.overall)[0];
+    if (best) {
+      ids[i] = best.id;
+      used.add(best.id);
     }
-  }
-  if (starters.length < 11) {
-    const rest = team.players.filter((p) => !used.has(p.id)).sort((a, b) => b.overall - a.overall);
-    for (const p of rest) {
-      if (starters.length >= 11) break;
-      starters.push(p);
+  });
+
+  // 2° passaggio: caselle ancora vuote → miglior giocatore rimasto per adattamento.
+  formation.slots.forEach((slot, i) => {
+    if (ids[i]) return;
+    const best = available().sort(
+      (a, b) =>
+        b.overall * positionFit(b.role, slot.role) - a.overall * positionFit(a.role, slot.role),
+    )[0];
+    if (best) {
+      ids[i] = best.id;
+      used.add(best.id);
     }
-  }
-  return starters;
+  });
+
+  return ids.filter((id): id is string => id !== null);
 }
 
-/** Normalizza una lista di id titolari: validi, senza duplicati, esattamente 11. */
-function normalizeLineup(team: Team, lineupIds: string[]): string[] {
+/**
+ * Normalizza una formazione salvata rispetto al modulo corrente: scarta id non
+ * più validi o duplicati, mantenendo la posizione, e ricompleta le caselle vuote.
+ */
+export function normalizeLineup(team: Team, formation: Formation, lineupIds: string[]): string[] {
   const byId = new Map(team.players.map((p) => [p.id, p]));
+  const slots = formation.slots;
+  const ids: (string | null)[] = slots.map((_, i) => {
+    const id = lineupIds[i];
+    return id && byId.has(id) ? id : null;
+  });
+
+  // Rimuovi duplicati (mantieni la prima occorrenza).
   const seen = new Set<string>();
-  const result: string[] = [];
-  for (const id of lineupIds) {
-    if (byId.has(id) && !seen.has(id)) {
-      seen.add(id);
-      result.push(id);
-    }
+  for (let i = 0; i < ids.length; i++) {
+    const id = ids[i];
+    if (id === null) continue;
+    if (seen.has(id)) ids[i] = null;
+    else seen.add(id);
   }
-  if (result.length < 11) {
-    const rest = team.players.filter((p) => !seen.has(p.id)).sort((a, b) => b.overall - a.overall);
-    for (const p of rest) {
-      if (result.length >= 11) break;
-      result.push(p.id);
+
+  // Completa le caselle vuote con il miglior giocatore non schierato per adattamento.
+  slots.forEach((slot, i) => {
+    if (ids[i]) return;
+    const best = team.players
+      .filter((p) => !seen.has(p.id))
+      .sort(
+        (a, b) =>
+          b.overall * positionFit(b.role, slot.role) - a.overall * positionFit(a.role, slot.role),
+      )[0];
+    if (best) {
+      ids[i] = best.id;
+      seen.add(best.id);
     }
-  }
-  return result.slice(0, 11);
+  });
+
+  return ids.filter((id): id is string => id !== null);
 }
 
-/** Gli 11 titolari "effettivi": per l'utente la sua formazione, per le AI l'auto. */
-export function getLineup(state: GameState, teamId: string): Player[] {
+/** Il modulo scelto dall'utente. */
+export function getUserFormation(state: GameState): Formation {
+  return getFormation(state.formation);
+}
+
+/** Coppie (giocatore, casella) per una squadra, allineate al modulo. */
+export function getLineupSlots(
+  state: GameState,
+  teamId: string,
+): { player: Player; slot: FormationSlot }[] {
   const team = getTeam(state, teamId);
   if (!team) return [];
-  if (teamId !== state.userTeamId) return selectStarters(team);
-
-  const ids = normalizeLineup(team, state.userLineup);
+  const isUser = teamId === state.userTeamId;
+  const formation = isUser ? getUserFormation(state) : getFormation(DEFAULT_FORMATION_ID);
+  const ids = isUser
+    ? normalizeLineup(team, formation, state.userLineup)
+    : autoLineupIds(team, formation);
   const byId = new Map(team.players.map((p) => [p.id, p]));
-  return ids.map((id) => byId.get(id)!).filter(Boolean);
+  return ids
+    .map((id, i) => ({ player: byId.get(id)!, slot: formation.slots[i] }))
+    .filter((x) => x.player);
+}
+
+/** Gli 11 titolari "effettivi", in ordine di casella. */
+export function getLineup(state: GameState, teamId: string): Player[] {
+  return getLineupSlots(state, teamId).map((x) => x.player);
 }
 
 export function getUserStarters(state: GameState): Player[] {
@@ -145,22 +195,72 @@ export function getUserBench(state: GameState): Player[] {
   return team.players.filter((p) => !starterIds.has(p.id)).sort((a, b) => b.overall - a.overall);
 }
 
-/** Scambia un titolare con un giocatore della panchina (o viceversa). */
-export function swapStarter(state: GameState, outId: string, inId: string): GameState {
+/** Cambia modulo, riposizionando i titolari attuali nelle nuove caselle. */
+export function setFormation(state: GameState, formationId: string): GameState {
   const team = getUserTeam(state);
-  if (!team) return state;
+  const formation = getFormation(formationId);
+  if (!team) return { ...state, formation: formation.id };
 
-  const lineup = normalizeLineup(team, state.userLineup);
-  const outIdx = lineup.indexOf(outId);
-  const inAlready = lineup.indexOf(inId);
+  // Manteniamo gli undici già schierati, riassegnandoli alle nuove caselle in ruolo.
+  const current = normalizeLineup(team, getUserFormation(state), state.userLineup);
+  const currentPlayers = current
+    .map((id) => team.players.find((p) => p.id === id))
+    .filter((p): p is Player => Boolean(p));
 
-  let next: string[];
-  if (outIdx !== -1 && inAlready === -1) {
-    next = lineup.map((id) => (id === outId ? inId : id)); // panchina → titolare
-  } else if (outIdx === -1 && inAlready !== -1) {
-    next = lineup.map((id) => (id === inId ? outId : id));
+  const slots = formation.slots;
+  const ids: (string | null)[] = slots.map(() => null);
+  const used = new Set<string>();
+  const pool = () => currentPlayers.filter((p) => !used.has(p.id));
+
+  slots.forEach((slot, i) => {
+    const best = pool()
+      .filter((p) => p.role === slot.role)
+      .sort((a, b) => b.overall - a.overall)[0];
+    if (best) {
+      ids[i] = best.id;
+      used.add(best.id);
+    }
+  });
+  slots.forEach((slot, i) => {
+    if (ids[i]) return;
+    const best = pool().sort(
+      (a, b) =>
+        b.overall * positionFit(b.role, slot.role) - a.overall * positionFit(a.role, slot.role),
+    )[0];
+    if (best) {
+      ids[i] = best.id;
+      used.add(best.id);
+    }
+  });
+
+  const userLineup = normalizeLineup(team, formation, ids.filter((id): id is string => id !== null));
+  return { ...state, formation: formation.id, userLineup };
+}
+
+/**
+ * Assegna un giocatore a una casella. Se il giocatore è già titolare in un'altra
+ * casella, le due si scambiano (cambio di posizione); se è in panchina, prende il
+ * posto dell'occupante, che torna in panchina.
+ */
+export function assignToSlot(state: GameState, slotIndex: number, playerId: string): GameState {
+  const team = getUserTeam(state);
+  if (!team || !team.players.some((p) => p.id === playerId)) return state;
+
+  const formation = getUserFormation(state);
+  if (slotIndex < 0 || slotIndex >= formation.slots.length) return state;
+
+  const lineup = normalizeLineup(team, formation, state.userLineup);
+  if (lineup[slotIndex] === playerId) return state;
+
+  const currentIndex = lineup.indexOf(playerId);
+  const next = [...lineup];
+  if (currentIndex !== -1) {
+    // Scambio di posizione tra due titolari.
+    next[currentIndex] = lineup[slotIndex];
+    next[slotIndex] = playerId;
   } else {
-    return state; // entrambi titolari o entrambi in panchina: niente da fare
+    // Dalla panchina: l'occupante esce, ritorna disponibile.
+    next[slotIndex] = playerId;
   }
   return { ...state, userLineup: next };
 }
@@ -203,7 +303,7 @@ export function sellPlayer(state: GameState, playerId: string): GameState {
 
   // Se il venduto era titolare, la formazione viene ricompletata.
   const updatedUser = teams.find((t) => t.id === state.userTeamId)!;
-  const userLineup = normalizeLineup(updatedUser, state.userLineup);
+  const userLineup = normalizeLineup(updatedUser, getUserFormation(state), state.userLineup);
 
   return {
     ...state,
@@ -227,14 +327,14 @@ export function playNextRound(state: GameState): GameState {
     const away = getTeam(state, f.awayTeamId);
     if (!home || !away) return f;
 
-    const homeXI = getLineup(state, home.id);
-    const awayXI = getLineup(state, away.id);
+    const homeXI = getLineupSlots(state, home.id);
+    const awayXI = getLineupSlots(state, away.id);
     const result = simulateMatch(toMatchTeam(home, homeXI), toMatchTeam(away, awayXI), {
       seed: hashSeed(f.id),
     });
 
-    accumulateForm(overallDeltas, homeXI, result.homeGoals, result.awayGoals);
-    accumulateForm(overallDeltas, awayXI, result.awayGoals, result.homeGoals);
+    accumulateForm(overallDeltas, homeXI.map((x) => x.player), result.homeGoals, result.awayGoals);
+    accumulateForm(overallDeltas, awayXI.map((x) => x.player), result.awayGoals, result.homeGoals);
     return { ...f, result };
   });
 
@@ -268,12 +368,18 @@ function accumulateForm(
   }
 }
 
-function toMatchTeam(team: Team, lineup: Player[]): MatchTeam {
-  const mapped: PlayerInMatch[] = lineup.map((p) => ({
-    id: p.id,
-    name: p.name,
-    role: p.role,
-    overall: p.overall,
+/**
+ * Converte la formazione in input per il motore. Ogni giocatore entra con il
+ * RUOLO DELLA CASELLA in cui gioca e con l'overall ridotto dal fattore di
+ * adattamento se è fuori ruolo: così il motore (invariato) tiene conto sia della
+ * posizione tattica sia della penalità per chi gioca fuori reparto.
+ */
+function toMatchTeam(team: Team, lineup: { player: Player; slot: FormationSlot }[]): MatchTeam {
+  const mapped: PlayerInMatch[] = lineup.map(({ player, slot }) => ({
+    id: player.id,
+    name: player.name,
+    role: slot.role,
+    overall: player.overall * positionFit(player.role, slot.role),
   }));
   return { id: team.id, name: team.name, lineup: mapped };
 }

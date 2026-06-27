@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { useGame } from '../../state/GameContext';
 import { teamAverageOverall } from '../../domain/models/Team';
+import { FORMATIONS, DEFAULT_FORMATION_ID } from '../../domain/models/Formation';
 
-/** Schermata iniziale: scelta della squadra da allenare. */
+/** Schermata iniziale: scelta della squadra e poi del modulo da adottare. */
 export default function StartScreen() {
   const { availableTeams, startNewGame } = useGame();
   const [selected, setSelected] = useState<string | null>(null);
+  const [formation, setFormation] = useState<string>(DEFAULT_FORMATION_ID);
 
   return (
     <div className="min-h-screen mx-auto max-w-2xl px-4 py-10">
@@ -14,7 +16,10 @@ export default function StartScreen() {
         Modalità Carriera Allenatore · Scegli la squadra da guidare in questa stagione.
       </p>
 
-      <div className="mt-8 grid gap-3 sm:grid-cols-2">
+      <h2 className="mt-8 text-sm font-semibold uppercase tracking-wide text-emerald-400">
+        1. Squadra
+      </h2>
+      <div className="mt-3 grid gap-3 sm:grid-cols-2">
         {availableTeams.map((team) => {
           const isSelected = selected === team.id;
           return (
@@ -39,9 +44,35 @@ export default function StartScreen() {
         })}
       </div>
 
+      {selected && (
+        <>
+          <h2 className="mt-8 text-sm font-semibold uppercase tracking-wide text-emerald-400">
+            2. Modulo
+          </h2>
+          <p className="mt-1 text-xs text-slate-400">
+            Potrai cambiarlo e disporre i giocatori nelle singole posizioni dalla schermata Rosa.
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {FORMATIONS.map((f) => (
+              <button
+                key={f.id}
+                onClick={() => setFormation(f.id)}
+                className={`rounded-lg border px-4 py-2 text-sm font-semibold transition ${
+                  formation === f.id
+                    ? 'border-emerald-500 bg-emerald-500/10 text-white'
+                    : 'border-slate-700 bg-slate-900/40 text-slate-300 hover:border-slate-500'
+                }`}
+              >
+                {f.name}
+              </button>
+            ))}
+          </div>
+        </>
+      )}
+
       <button
         disabled={!selected}
-        onClick={() => selected && startNewGame(selected)}
+        onClick={() => selected && startNewGame(selected, formation)}
         className="mt-8 w-full rounded-xl bg-emerald-500 py-3 font-semibold text-slate-950 transition enabled:hover:bg-emerald-400 disabled:cursor-not-allowed disabled:opacity-40"
       >
         Inizia la carriera

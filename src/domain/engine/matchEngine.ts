@@ -34,12 +34,16 @@ export interface MatchOptions {
 // ─── Parametri di bilanciamento (tutti qui, facili da ritoccare) ──────────
 
 const CONFIG = {
-  // Gol medi attesi per squadra in una partita equilibrata (media reale ~1.35).
-  BASE_EXPECTED_GOALS: 1.35,
+  // Gol medi attesi per squadra in una partita equilibrata.
+  // Tarato per ~2.8 gol/partita totali, in linea con la Serie A reale.
+  BASE_EXPECTED_GOALS: 1.2,
   // Quanto la differenza di forza incide sui gol attesi. Più alto = più sbilanciato.
-  STRENGTH_SENSITIVITY: 1.25,
+  // Il range overall delle rose è compresso (68–80): serve una sensibilità alta
+  // perché i favoriti rendano in modo realistico (top in casa vs ultima ~70%).
+  STRENGTH_SENSITIVITY: 2.5,
   // Vantaggio del fattore campo (moltiplicatore sui gol attesi di casa).
-  HOME_ADVANTAGE: 1.15,
+  // Tarato per un esito ~45% casa / 25% pari / 30% trasferta.
+  HOME_ADVANTAGE: 1.3,
   // Peso dei reparti nel calcolare attacco / difesa di una squadra.
   ATTACK_WEIGHTS: { GK: 0, DEF: 0.15, MID: 0.5, ATT: 1 } as Record<Role, number>,
   DEFENSE_WEIGHTS: { GK: 1, DEF: 1, MID: 0.4, ATT: 0.1 } as Record<Role, number>,

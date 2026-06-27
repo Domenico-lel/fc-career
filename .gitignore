@@ -17,3 +17,6 @@ npm-debug.log*
 # Variabili d'ambiente
 .env
 .env.local
+
+# Claude Code (impostazioni locali/personali)
+.claude/settings.local.json

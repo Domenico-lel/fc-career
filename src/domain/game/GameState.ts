@@ -14,5 +14,6 @@ export interface GameState {
   fixtures: Fixture[];
   currentRound: number; // prossima giornata da giocare (1-based)
   budget: number; // budget di mercato della squadra dell'utente (euro)
-  userLineup: string[]; // id degli 11 titolari scelti dall'utente
+  formation: string; // id del modulo scelto dall'utente (es. "4-3-3")
+  userLineup: string[]; // id dei titolari, allineato alle caselle del modulo (slot i → userLineup[i])
 }
