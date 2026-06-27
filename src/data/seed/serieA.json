@@ -1,0 +1,5227 @@
+[
+  {
+    "id": "int",
+    "name": "Inter",
+    "shortName": "INT",
+    "players": [
+      {
+        "id": "int-231478",
+        "name": "L. Martínez",
+        "role": "ATT",
+        "age": 27,
+        "overall": 88,
+        "potential": 88,
+        "value": 99000000
+      },
+      {
+        "id": "int-224232",
+        "name": "N. Barella",
+        "role": "MID",
+        "age": 28,
+        "overall": 87,
+        "potential": 87,
+        "value": 79500000
+      },
+      {
+        "id": "int-237383",
+        "name": "A. Bastoni",
+        "role": "DEF",
+        "age": 26,
+        "overall": 87,
+        "potential": 89,
+        "value": 87000000
+      },
+      {
+        "id": "int-177683",
+        "name": "Y. Sommer",
+        "role": "GK",
+        "age": 36,
+        "overall": 87,
+        "potential": 87,
+        "value": 9000000
+      },
+      {
+        "id": "int-208128",
+        "name": "H. Çalhanoğlu",
+        "role": "MID",
+        "age": 31,
+        "overall": 86,
+        "potential": 86,
+        "value": 47500000
+      },
+      {
+        "id": "int-226268",
+        "name": "F. Dimarco",
+        "role": "DEF",
+        "age": 27,
+        "overall": 85,
+        "potential": 85,
+        "value": 52000000
+      },
+      {
+        "id": "int-228093",
+        "name": "M. Thuram",
+        "role": "ATT",
+        "age": 27,
+        "overall": 85,
+        "potential": 85,
+        "value": 58500000
+      },
+      {
+        "id": "int-233096",
+        "name": "D. Dumfries",
+        "role": "DEF",
+        "age": 29,
+        "overall": 84,
+        "potential": 84,
+        "value": 37000000
+      },
+      {
+        "id": "int-199845",
+        "name": "F. Acerbi",
+        "role": "DEF",
+        "age": 37,
+        "overall": 84,
+        "potential": 84,
+        "value": 7500000
+      },
+      {
+        "id": "int-198176",
+        "name": "S. de Vrij",
+        "role": "DEF",
+        "age": 33,
+        "overall": 84,
+        "potential": 84,
+        "value": 20000000
+      },
+      {
+        "id": "int-192883",
+        "name": "H. Mkhitaryan",
+        "role": "MID",
+        "age": 36,
+        "overall": 83,
+        "potential": 83,
+        "value": 11500000
+      },
+      {
+        "id": "int-229237",
+        "name": "M. Akanji",
+        "role": "DEF",
+        "age": 29,
+        "overall": 82,
+        "potential": 82,
+        "value": 25500000
+      },
+      {
+        "id": "int-258648",
+        "name": "Carlos Augusto",
+        "role": "DEF",
+        "age": 26,
+        "overall": 81,
+        "potential": 82,
+        "value": 27500000
+      },
+      {
+        "id": "int-239807",
+        "name": "D. Frattesi",
+        "role": "MID",
+        "age": 25,
+        "overall": 81,
+        "potential": 83,
+        "value": 32000000
+      },
+      {
+        "id": "int-184392",
+        "name": "M. Darmian",
+        "role": "DEF",
+        "age": 35,
+        "overall": 81,
+        "potential": 81,
+        "value": 8000000
+      },
+      {
+        "id": "int-210406",
+        "name": "P. Zieliński",
+        "role": "MID",
+        "age": 31,
+        "overall": 80,
+        "potential": 80,
+        "value": 17500000
+      },
+      {
+        "id": "int-256632",
+        "name": "Luis Henrique",
+        "role": "MID",
+        "age": 23,
+        "overall": 78,
+        "potential": 83,
+        "value": 21000000
+      },
+      {
+        "id": "int-241736",
+        "name": "Y. Bisseck",
+        "role": "DEF",
+        "age": 24,
+        "overall": 76,
+        "potential": 80,
+        "value": 9500000
+      },
+      {
+        "id": "int-259565",
+        "name": "Y. Bonny",
+        "role": "ATT",
+        "age": 21,
+        "overall": 76,
+        "potential": 86,
+        "value": 17000000
+      },
+      {
+        "id": "int-268534",
+        "name": "A. Diouf",
+        "role": "MID",
+        "age": 22,
+        "overall": 75,
+        "potential": 81,
+        "value": 9000000
+      },
+      {
+        "id": "int-243311",
+        "name": "Josep Martínez",
+        "role": "GK",
+        "age": 27,
+        "overall": 75,
+        "potential": 77,
+        "value": 5000000
+      },
+      {
+        "id": "int-276278",
+        "name": "P. Sučić",
+        "role": "MID",
+        "age": 21,
+        "overall": 74,
+        "potential": 83,
+        "value": 9500000
+      },
+      {
+        "id": "int-277327",
+        "name": "F. Esposito",
+        "role": "ATT",
+        "age": 20,
+        "overall": 72,
+        "potential": 84,
+        "value": 5500000
+      },
+      {
+        "id": "int-219715",
+        "name": "R. Di Gennaro",
+        "role": "GK",
+        "age": 31,
+        "overall": 68,
+        "potential": 68,
+        "value": 650000
+      },
+      {
+        "id": "int-268558",
+        "name": "T. Palacios",
+        "role": "DEF",
+        "age": 22,
+        "overall": 67,
+        "potential": 77,
+        "value": 2100000
+      }
+    ]
+  },
+  {
+    "id": "nap",
+    "name": "Napoli",
+    "shortName": "NAP",
+    "players": [
+      {
+        "id": "nap-192985",
+        "name": "K. De Bruyne",
+        "role": "MID",
+        "age": 34,
+        "overall": 87,
+        "potential": 87,
+        "value": 36500000
+      },
+      {
+        "id": "nap-237238",
+        "name": "S. McTominay",
+        "role": "MID",
+        "age": 28,
+        "overall": 85,
+        "potential": 85,
+        "value": 54000000
+      },
+      {
+        "id": "nap-192505",
+        "name": "R. Lukaku",
+        "role": "ATT",
+        "age": 32,
+        "overall": 84,
+        "potential": 84,
+        "value": 34000000
+      },
+      {
+        "id": "nap-217870",
+        "name": "G. Di Lorenzo",
+        "role": "DEF",
+        "age": 31,
+        "overall": 83,
+        "potential": 83,
+        "value": 26500000
+      },
+      {
+        "id": "nap-216435",
+        "name": "S. Lobotka",
+        "role": "MID",
+        "age": 30,
+        "overall": 83,
+        "potential": 83,
+        "value": 34500000
+      },
+      {
+        "id": "nap-244263",
+        "name": "A. Rrahmani",
+        "role": "DEF",
+        "age": 31,
+        "overall": 83,
+        "potential": 83,
+        "value": 25000000
+      },
+      {
+        "id": "nap-227236",
+        "name": "A. Zambo Anguissa",
+        "role": "MID",
+        "age": 29,
+        "overall": 82,
+        "potential": 82,
+        "value": 29500000
+      },
+      {
+        "id": "nap-243241",
+        "name": "A. Buongiorno",
+        "role": "DEF",
+        "age": 26,
+        "overall": 82,
+        "potential": 86,
+        "value": 37500000
+      },
+      {
+        "id": "nap-225116",
+        "name": "A. Meret",
+        "role": "GK",
+        "age": 28,
+        "overall": 82,
+        "potential": 84,
+        "value": 26000000
+      },
+      {
+        "id": "nap-261865",
+        "name": "Miguel Gutiérrez",
+        "role": "DEF",
+        "age": 23,
+        "overall": 81,
+        "potential": 85,
+        "value": 34500000
+      },
+      {
+        "id": "nap-216409",
+        "name": "M. Politano",
+        "role": "ATT",
+        "age": 31,
+        "overall": 81,
+        "potential": 81,
+        "value": 21500000
+      },
+      {
+        "id": "nap-236632",
+        "name": "David Neres",
+        "role": "ATT",
+        "age": 28,
+        "overall": 81,
+        "potential": 81,
+        "value": 26000000
+      },
+      {
+        "id": "nap-239380",
+        "name": "N. Lang",
+        "role": "ATT",
+        "age": 26,
+        "overall": 80,
+        "potential": 81,
+        "value": 25000000
+      },
+      {
+        "id": "nap-224836",
+        "name": "V. Milinković-Savić",
+        "role": "GK",
+        "age": 28,
+        "overall": 79,
+        "potential": 81,
+        "value": 15000000
+      },
+      {
+        "id": "nap-202884",
+        "name": "L. Spinazzola",
+        "role": "DEF",
+        "age": 32,
+        "overall": 78,
+        "potential": 78,
+        "value": 9500000
+      },
+      {
+        "id": "nap-240716",
+        "name": "M. Olivera",
+        "role": "DEF",
+        "age": 27,
+        "overall": 78,
+        "potential": 78,
+        "value": 13500000
+      },
+      {
+        "id": "nap-262394",
+        "name": "S. Beukema",
+        "role": "DEF",
+        "age": 26,
+        "overall": 78,
+        "potential": 81,
+        "value": 16500000
+      },
+      {
+        "id": "nap-241390",
+        "name": "E. Elmas",
+        "role": "MID",
+        "age": 25,
+        "overall": 77,
+        "potential": 77,
+        "value": 11500000
+      },
+      {
+        "id": "nap-259399",
+        "name": "R. Højlund",
+        "role": "ATT",
+        "age": 22,
+        "overall": 76,
+        "potential": 83,
+        "value": 15500000
+      },
+      {
+        "id": "nap-268474",
+        "name": "L. Lucca",
+        "role": "ATT",
+        "age": 24,
+        "overall": 76,
+        "potential": 80,
+        "value": 11000000
+      },
+      {
+        "id": "nap-245992",
+        "name": "B. Gilmour",
+        "role": "MID",
+        "age": 24,
+        "overall": 74,
+        "potential": 79,
+        "value": 6500000
+      },
+      {
+        "id": "nap-200752",
+        "name": "Juan Jesus",
+        "role": "DEF",
+        "age": 34,
+        "overall": 74,
+        "potential": 74,
+        "value": 1400000
+      },
+      {
+        "id": "nap-239679",
+        "name": "P. Mazzocchi",
+        "role": "DEF",
+        "age": 29,
+        "overall": 72,
+        "potential": 72,
+        "value": 2100000
+      },
+      {
+        "id": "nap-278319",
+        "name": "L. Marianucci",
+        "role": "DEF",
+        "age": 20,
+        "overall": 68,
+        "potential": 79,
+        "value": 2500000
+      },
+      {
+        "id": "nap-272726",
+        "name": "G. Ambrosino",
+        "role": "ATT",
+        "age": 21,
+        "overall": 67,
+        "potential": 77,
+        "value": 2300000
+      },
+      {
+        "id": "nap-220532",
+        "name": "N. Contini",
+        "role": "GK",
+        "age": 29,
+        "overall": 67,
+        "potential": 69,
+        "value": 850000
+      },
+      {
+        "id": "nap-276706",
+        "name": "A. Vergara",
+        "role": "ATT",
+        "age": 22,
+        "overall": 65,
+        "potential": 74,
+        "value": 1600000
+      }
+    ]
+  },
+  {
+    "id": "juv",
+    "name": "Juventus",
+    "shortName": "JUV",
+    "players": [
+      {
+        "id": "juv-239580",
+        "name": "Bremer",
+        "role": "DEF",
+        "age": 28,
+        "overall": 85,
+        "potential": 86,
+        "value": 51000000
+      },
+      {
+        "id": "juv-222077",
+        "name": "M. Locatelli",
+        "role": "MID",
+        "age": 27,
+        "overall": 84,
+        "potential": 85,
+        "value": 43000000
+      },
+      {
+        "id": "juv-243580",
+        "name": "L. Openda",
+        "role": "ATT",
+        "age": 25,
+        "overall": 83,
+        "potential": 85,
+        "value": 46000000
+      },
+      {
+        "id": "juv-246430",
+        "name": "D. Vlahović",
+        "role": "ATT",
+        "age": 25,
+        "overall": 82,
+        "potential": 85,
+        "value": 41000000
+      },
+      {
+        "id": "juv-243630",
+        "name": "J. David",
+        "role": "ATT",
+        "age": 25,
+        "overall": 82,
+        "potential": 85,
+        "value": 41000000
+      },
+      {
+        "id": "juv-240679",
+        "name": "T. Koopmeiners",
+        "role": "MID",
+        "age": 27,
+        "overall": 81,
+        "potential": 81,
+        "value": 27500000
+      },
+      {
+        "id": "juv-208574",
+        "name": "F. Kostić",
+        "role": "MID",
+        "age": 32,
+        "overall": 81,
+        "potential": 81,
+        "value": 20500000
+      },
+      {
+        "id": "juv-247246",
+        "name": "K. Thuram",
+        "role": "MID",
+        "age": 24,
+        "overall": 81,
+        "potential": 85,
+        "value": 36500000
+      },
+      {
+        "id": "juv-235840",
+        "name": "M. Di Gregorio",
+        "role": "GK",
+        "age": 27,
+        "overall": 81,
+        "potential": 84,
+        "value": 25500000
+      },
+      {
+        "id": "juv-255654",
+        "name": "P. Kalulu",
+        "role": "DEF",
+        "age": 25,
+        "overall": 80,
+        "potential": 85,
+        "value": 28000000
+      },
+      {
+        "id": "juv-266872",
+        "name": "F. Gatti",
+        "role": "DEF",
+        "age": 27,
+        "overall": 80,
+        "potential": 83,
+        "value": 24000000
+      },
+      {
+        "id": "juv-258966",
+        "name": "A. Cambiaso",
+        "role": "DEF",
+        "age": 25,
+        "overall": 79,
+        "potential": 82,
+        "value": 21500000
+      },
+      {
+        "id": "juv-277954",
+        "name": "K. Yıldız",
+        "role": "MID",
+        "age": 20,
+        "overall": 79,
+        "potential": 89,
+        "value": 38500000
+      },
+      {
+        "id": "juv-205175",
+        "name": "A. Milik",
+        "role": "ATT",
+        "age": 31,
+        "overall": 79,
+        "potential": 79,
+        "value": 15000000
+      },
+      {
+        "id": "juv-261050",
+        "name": "Francisco Conceição",
+        "role": "MID",
+        "age": 22,
+        "overall": 79,
+        "potential": 86,
+        "value": 35500000
+      },
+      {
+        "id": "juv-239763",
+        "name": "E. Zhegrova",
+        "role": "MID",
+        "age": 26,
+        "overall": 79,
+        "potential": 80,
+        "value": 20500000
+      },
+      {
+        "id": "juv-238744",
+        "name": "W. McKennie",
+        "role": "MID",
+        "age": 26,
+        "overall": 78,
+        "potential": 79,
+        "value": 16500000
+      },
+      {
+        "id": "juv-198009",
+        "name": "M. Perin",
+        "role": "GK",
+        "age": 32,
+        "overall": 78,
+        "potential": 78,
+        "value": 7000000
+      },
+      {
+        "id": "juv-257290",
+        "name": "João Mário",
+        "role": "DEF",
+        "age": 25,
+        "overall": 77,
+        "potential": 81,
+        "value": 13500000
+      },
+      {
+        "id": "juv-211320",
+        "name": "D. Rugani",
+        "role": "DEF",
+        "age": 30,
+        "overall": 75,
+        "potential": 75,
+        "value": 4600000
+      },
+      {
+        "id": "juv-268802",
+        "name": "F. Miretti",
+        "role": "MID",
+        "age": 21,
+        "overall": 74,
+        "potential": 80,
+        "value": 6500000
+      },
+      {
+        "id": "juv-231512",
+        "name": "L. Kelly",
+        "role": "DEF",
+        "age": 26,
+        "overall": 74,
+        "potential": 77,
+        "value": 4900000
+      },
+      {
+        "id": "juv-251870",
+        "name": "J. Cabal",
+        "role": "DEF",
+        "age": 24,
+        "overall": 74,
+        "potential": 79,
+        "value": 6000000
+      },
+      {
+        "id": "juv-189342",
+        "name": "C. Pinsoglio",
+        "role": "GK",
+        "age": 35,
+        "overall": 69,
+        "potential": 69,
+        "value": 150000
+      },
+      {
+        "id": "juv-74329",
+        "name": "J. Rouhi",
+        "role": "DEF",
+        "age": 21,
+        "overall": 66,
+        "potential": 77,
+        "value": 1800000
+      },
+      {
+        "id": "juv-75085",
+        "name": "V. Adžić",
+        "role": "MID",
+        "age": 19,
+        "overall": 65,
+        "potential": 79,
+        "value": 1700000
+      }
+    ]
+  },
+  {
+    "id": "mil",
+    "name": "Milan",
+    "shortName": "MIL",
+    "players": [
+      {
+        "id": "mil-215698",
+        "name": "M. Maignan",
+        "role": "GK",
+        "age": 29,
+        "overall": 87,
+        "potential": 88,
+        "value": 61000000
+      },
+      {
+        "id": "mil-227796",
+        "name": "C. Pulisic",
+        "role": "ATT",
+        "age": 26,
+        "overall": 84,
+        "potential": 84,
+        "value": 46000000
+      },
+      {
+        "id": "mil-241721",
+        "name": "Rafael Leão",
+        "role": "ATT",
+        "age": 26,
+        "overall": 84,
+        "potential": 85,
+        "value": 49500000
+      },
+      {
+        "id": "mil-210008",
+        "name": "A. Rabiot",
+        "role": "MID",
+        "age": 30,
+        "overall": 83,
+        "potential": 83,
+        "value": 35000000
+      },
+      {
+        "id": "mil-177003",
+        "name": "L. Modrić",
+        "role": "MID",
+        "age": 39,
+        "overall": 83,
+        "potential": 83,
+        "value": 11500000
+      },
+      {
+        "id": "mil-245630",
+        "name": "Y. Fofana",
+        "role": "MID",
+        "age": 26,
+        "overall": 81,
+        "potential": 84,
+        "value": 30500000
+      },
+      {
+        "id": "mil-232411",
+        "name": "C. Nkunku",
+        "role": "MID",
+        "age": 27,
+        "overall": 81,
+        "potential": 81,
+        "value": 27500000
+      },
+      {
+        "id": "mil-232756",
+        "name": "F. Tomori",
+        "role": "DEF",
+        "age": 27,
+        "overall": 81,
+        "potential": 84,
+        "value": 29500000
+      },
+      {
+        "id": "mil-213666",
+        "name": "R. Loftus-Cheek",
+        "role": "MID",
+        "age": 29,
+        "overall": 80,
+        "potential": 80,
+        "value": 20500000
+      },
+      {
+        "id": "mil-237942",
+        "name": "P. Estupiñán",
+        "role": "DEF",
+        "age": 27,
+        "overall": 79,
+        "potential": 80,
+        "value": 18500000
+      },
+      {
+        "id": "mil-242664",
+        "name": "A. Saelemaekers",
+        "role": "MID",
+        "age": 26,
+        "overall": 79,
+        "potential": 80,
+        "value": 20500000
+      },
+      {
+        "id": "mil-245152",
+        "name": "S. Giménez",
+        "role": "ATT",
+        "age": 24,
+        "overall": 79,
+        "potential": 84,
+        "value": 27000000
+      },
+      {
+        "id": "mil-253473",
+        "name": "S. Ricci",
+        "role": "MID",
+        "age": 23,
+        "overall": 78,
+        "potential": 85,
+        "value": 26500000
+      },
+      {
+        "id": "mil-240277",
+        "name": "M. Gabbia",
+        "role": "DEF",
+        "age": 25,
+        "overall": 78,
+        "potential": 83,
+        "value": 18500000
+      },
+      {
+        "id": "mil-205812",
+        "name": "P. Terracciano",
+        "role": "GK",
+        "age": 35,
+        "overall": 78,
+        "potential": 78,
+        "value": 1600000
+      },
+      {
+        "id": "mil-257186",
+        "name": "A. Jashari",
+        "role": "MID",
+        "age": 22,
+        "overall": 77,
+        "potential": 86,
+        "value": 22500000
+      },
+      {
+        "id": "mil-254840",
+        "name": "S. Pavlović",
+        "role": "DEF",
+        "age": 24,
+        "overall": 76,
+        "potential": 83,
+        "value": 14000000
+      },
+      {
+        "id": "mil-265774",
+        "name": "K. De Winter",
+        "role": "DEF",
+        "age": 23,
+        "overall": 74,
+        "potential": 84,
+        "value": 8500000
+      },
+      {
+        "id": "mil-279782",
+        "name": "Z. Athekame",
+        "role": "DEF",
+        "age": 20,
+        "overall": 65,
+        "potential": 78,
+        "value": 1600000
+      },
+      {
+        "id": "mil-73286",
+        "name": "D. Odogu",
+        "role": "DEF",
+        "age": 19,
+        "overall": 65,
+        "potential": 83,
+        "value": 1700000
+      },
+      {
+        "id": "mil-81252",
+        "name": "C. Balentien",
+        "role": "MID",
+        "age": 18,
+        "overall": 62,
+        "potential": 76,
+        "value": 925000
+      },
+      {
+        "id": "mil-278237",
+        "name": "D. Bartesaghi",
+        "role": "DEF",
+        "age": 19,
+        "overall": 62,
+        "potential": 78,
+        "value": 1000000
+      },
+      {
+        "id": "mil-72179",
+        "name": "L. Torriani",
+        "role": "GK",
+        "age": 20,
+        "overall": 61,
+        "potential": 76,
+        "value": 700000
+      }
+    ]
+  },
+  {
+    "id": "ata",
+    "name": "Atalanta",
+    "shortName": "ATA",
+    "players": [
+      {
+        "id": "ata-230899",
+        "name": "A. Lookman",
+        "role": "ATT",
+        "age": 27,
+        "overall": 84,
+        "potential": 84,
+        "value": 45500000
+      },
+      {
+        "id": "ata-252154",
+        "name": "M. Carnesecchi",
+        "role": "GK",
+        "age": 25,
+        "overall": 84,
+        "potential": 88,
+        "value": 46000000
+      },
+      {
+        "id": "ata-266866",
+        "name": "Éderson",
+        "role": "MID",
+        "age": 25,
+        "overall": 82,
+        "potential": 85,
+        "value": 40000000
+      },
+      {
+        "id": "ata-251470",
+        "name": "C. De Ketelaere",
+        "role": "MID",
+        "age": 24,
+        "overall": 82,
+        "potential": 86,
+        "value": 43500000
+      },
+      {
+        "id": "ata-208461",
+        "name": "M. de Roon",
+        "role": "MID",
+        "age": 34,
+        "overall": 81,
+        "potential": 81,
+        "value": 12000000
+      },
+      {
+        "id": "ata-223273",
+        "name": "M. Pašalić",
+        "role": "MID",
+        "age": 30,
+        "overall": 80,
+        "potential": 80,
+        "value": 20000000
+      },
+      {
+        "id": "ata-246875",
+        "name": "O. Kossounou",
+        "role": "DEF",
+        "age": 24,
+        "overall": 80,
+        "potential": 85,
+        "value": 29000000
+      },
+      {
+        "id": "ata-216150",
+        "name": "D. Zappacosta",
+        "role": "MID",
+        "age": 33,
+        "overall": 79,
+        "potential": 79,
+        "value": 11000000
+      },
+      {
+        "id": "ata-207993",
+        "name": "S. Kolašinac",
+        "role": "DEF",
+        "age": 32,
+        "overall": 79,
+        "potential": 79,
+        "value": 11500000
+      },
+      {
+        "id": "ata-226710",
+        "name": "G. Scamacca",
+        "role": "ATT",
+        "age": 26,
+        "overall": 79,
+        "potential": 80,
+        "value": 21000000
+      },
+      {
+        "id": "ata-208165",
+        "name": "B. Djimsiti",
+        "role": "DEF",
+        "age": 32,
+        "overall": 79,
+        "potential": 79,
+        "value": 11500000
+      },
+      {
+        "id": "ata-247229",
+        "name": "R. Bellanova",
+        "role": "MID",
+        "age": 25,
+        "overall": 78,
+        "potential": 79,
+        "value": 17000000
+      },
+      {
+        "id": "ata-260697",
+        "name": "I. Hien",
+        "role": "DEF",
+        "age": 26,
+        "overall": 78,
+        "potential": 81,
+        "value": 16500000
+      },
+      {
+        "id": "ata-265188",
+        "name": "G. Scalvini",
+        "role": "DEF",
+        "age": 21,
+        "overall": 77,
+        "potential": 86,
+        "value": 22000000
+      },
+      {
+        "id": "ata-262113",
+        "name": "N. Zalewski",
+        "role": "MID",
+        "age": 23,
+        "overall": 76,
+        "potential": 79,
+        "value": 10000000
+      },
+      {
+        "id": "ata-216065",
+        "name": "M. Sportiello",
+        "role": "GK",
+        "age": 33,
+        "overall": 76,
+        "potential": 76,
+        "value": 2400000
+      },
+      {
+        "id": "ata-239368",
+        "name": "M. Bakker",
+        "role": "DEF",
+        "age": 25,
+        "overall": 75,
+        "potential": 80,
+        "value": 7500000
+      },
+      {
+        "id": "ata-256115",
+        "name": "L. Samardžić",
+        "role": "MID",
+        "age": 23,
+        "overall": 75,
+        "potential": 82,
+        "value": 11000000
+      },
+      {
+        "id": "ata-277839",
+        "name": "N. Krstović",
+        "role": "ATT",
+        "age": 25,
+        "overall": 75,
+        "potential": 80,
+        "value": 8500000
+      },
+      {
+        "id": "ata-253177",
+        "name": "Y. Musah",
+        "role": "MID",
+        "age": 22,
+        "overall": 74,
+        "potential": 82,
+        "value": 9500000
+      },
+      {
+        "id": "ata-255611",
+        "name": "D. Maldini",
+        "role": "MID",
+        "age": 23,
+        "overall": 74,
+        "potential": 81,
+        "value": 8500000
+      },
+      {
+        "id": "ata-257785",
+        "name": "M. Brescianini",
+        "role": "MID",
+        "age": 25,
+        "overall": 71,
+        "potential": 74,
+        "value": 2500000
+      },
+      {
+        "id": "ata-256035",
+        "name": "K. Sulemana",
+        "role": "MID",
+        "age": 23,
+        "overall": 71,
+        "potential": 76,
+        "value": 2800000
+      },
+      {
+        "id": "ata-74483",
+        "name": "H. Ahanor",
+        "role": "DEF",
+        "age": 17,
+        "overall": 66,
+        "potential": 81,
+        "value": 1900000
+      },
+      {
+        "id": "ata-74574",
+        "name": "L. Bernasconi",
+        "role": "MID",
+        "age": 21,
+        "overall": 65,
+        "potential": 76,
+        "value": 1600000
+      },
+      {
+        "id": "ata-194894",
+        "name": "F. Rossi",
+        "role": "GK",
+        "age": 34,
+        "overall": 62,
+        "potential": 62,
+        "value": 70000
+      }
+    ]
+  },
+  {
+    "id": "rom",
+    "name": "Roma",
+    "shortName": "ROM",
+    "players": [
+      {
+        "id": "rom-211110",
+        "name": "P. Dybala",
+        "role": "MID",
+        "age": 31,
+        "overall": 86,
+        "potential": 86,
+        "value": 56500000
+      },
+      {
+        "id": "rom-242458",
+        "name": "A. Dovbyk",
+        "role": "ATT",
+        "age": 28,
+        "overall": 83,
+        "potential": 83,
+        "value": 37000000
+      },
+      {
+        "id": "rom-229582",
+        "name": "G. Mancini",
+        "role": "DEF",
+        "age": 29,
+        "overall": 83,
+        "potential": 83,
+        "value": 30500000
+      },
+      {
+        "id": "rom-230872",
+        "name": "M. Svilar",
+        "role": "GK",
+        "age": 25,
+        "overall": 82,
+        "potential": 86,
+        "value": 33500000
+      },
+      {
+        "id": "rom-236403",
+        "name": "E. Ndicka",
+        "role": "DEF",
+        "age": 25,
+        "overall": 81,
+        "potential": 83,
+        "value": 28500000
+      },
+      {
+        "id": "rom-228251",
+        "name": "L. Pellegrini",
+        "role": "MID",
+        "age": 29,
+        "overall": 80,
+        "potential": 80,
+        "value": 20500000
+      },
+      {
+        "id": "rom-208268",
+        "name": "B. Cristante",
+        "role": "MID",
+        "age": 30,
+        "overall": 80,
+        "potential": 80,
+        "value": 20000000
+      },
+      {
+        "id": "rom-229668",
+        "name": "Mario Hermoso",
+        "role": "DEF",
+        "age": 30,
+        "overall": 80,
+        "potential": 80,
+        "value": 17500000
+      },
+      {
+        "id": "rom-220651",
+        "name": "Angeliño",
+        "role": "DEF",
+        "age": 28,
+        "overall": 79,
+        "potential": 79,
+        "value": 16000000
+      },
+      {
+        "id": "rom-250723",
+        "name": "K. Koné",
+        "role": "MID",
+        "age": 24,
+        "overall": 79,
+        "potential": 84,
+        "value": 26500000
+      },
+      {
+        "id": "rom-190813",
+        "name": "S. El Shaarawy",
+        "role": "MID",
+        "age": 32,
+        "overall": 79,
+        "potential": 79,
+        "value": 14000000
+      },
+      {
+        "id": "rom-229906",
+        "name": "L. Bailey",
+        "role": "MID",
+        "age": 27,
+        "overall": 79,
+        "potential": 79,
+        "value": 18500000
+      },
+      {
+        "id": "rom-265695",
+        "name": "M. Soulé",
+        "role": "MID",
+        "age": 22,
+        "overall": 78,
+        "potential": 85,
+        "value": 28500000
+      },
+      {
+        "id": "rom-80170",
+        "name": "Wesley",
+        "role": "DEF",
+        "age": 21,
+        "overall": 77,
+        "potential": 85,
+        "value": 22500000
+      },
+      {
+        "id": "rom-232223",
+        "name": "K. Tsimikas",
+        "role": "DEF",
+        "age": 29,
+        "overall": 77,
+        "potential": 77,
+        "value": 9500000
+      },
+      {
+        "id": "rom-262745",
+        "name": "N. El Aynaoui",
+        "role": "MID",
+        "age": 23,
+        "overall": 77,
+        "potential": 83,
+        "value": 16500000
+      },
+      {
+        "id": "rom-224490",
+        "name": "Z. Çelik",
+        "role": "DEF",
+        "age": 28,
+        "overall": 76,
+        "potential": 76,
+        "value": 7000000
+      },
+      {
+        "id": "rom-269312",
+        "name": "T. Baldanzi",
+        "role": "MID",
+        "age": 22,
+        "overall": 75,
+        "potential": 81,
+        "value": 9000000
+      },
+      {
+        "id": "rom-262171",
+        "name": "E. Bove",
+        "role": "MID",
+        "age": 23,
+        "overall": 74,
+        "potential": 81,
+        "value": 8500000
+      },
+      {
+        "id": "rom-258826",
+        "name": "D. Rensch",
+        "role": "DEF",
+        "age": 22,
+        "overall": 74,
+        "potential": 80,
+        "value": 6500000
+      },
+      {
+        "id": "rom-211515",
+        "name": "P. Gollini",
+        "role": "GK",
+        "age": 30,
+        "overall": 74,
+        "potential": 74,
+        "value": 2800000
+      },
+      {
+        "id": "rom-259608",
+        "name": "E. Ferguson",
+        "role": "ATT",
+        "age": 20,
+        "overall": 73,
+        "potential": 82,
+        "value": 6500000
+      },
+      {
+        "id": "rom-275291",
+        "name": "N. Pisilli",
+        "role": "MID",
+        "age": 20,
+        "overall": 72,
+        "potential": 84,
+        "value": 5500000
+      },
+      {
+        "id": "rom-277695",
+        "name": "D. Ghilardi",
+        "role": "DEF",
+        "age": 22,
+        "overall": 72,
+        "potential": 80,
+        "value": 4900000
+      },
+      {
+        "id": "rom-233189",
+        "name": "D. Vásquez",
+        "role": "GK",
+        "age": 27,
+        "overall": 72,
+        "potential": 75,
+        "value": 2300000
+      },
+      {
+        "id": "rom-276680",
+        "name": "J. Ziółkowski",
+        "role": "DEF",
+        "age": 20,
+        "overall": 66,
+        "potential": 79,
+        "value": 1900000
+      },
+      {
+        "id": "rom-80045",
+        "name": "R. Zelezny",
+        "role": "GK",
+        "age": 18,
+        "overall": 64,
+        "potential": 78,
+        "value": 1200000
+      },
+      {
+        "id": "rom-279200",
+        "name": "Buba Sangaré",
+        "role": "DEF",
+        "age": 17,
+        "overall": 63,
+        "potential": 77,
+        "value": 1000000
+      }
+    ]
+  },
+  {
+    "id": "laz",
+    "name": "Lazio",
+    "shortName": "LAZ",
+    "players": [
+      {
+        "id": "laz-220502",
+        "name": "M. Zaccagni",
+        "role": "MID",
+        "age": 30,
+        "overall": 84,
+        "potential": 84,
+        "value": 40500000
+      },
+      {
+        "id": "laz-236496",
+        "name": "M. Guendouzi",
+        "role": "MID",
+        "age": 26,
+        "overall": 82,
+        "potential": 85,
+        "value": 36000000
+      },
+      {
+        "id": "laz-210413",
+        "name": "A. Romagnoli",
+        "role": "DEF",
+        "age": 30,
+        "overall": 82,
+        "potential": 82,
+        "value": 25000000
+      },
+      {
+        "id": "laz-224987",
+        "name": "I. Provedel",
+        "role": "GK",
+        "age": 31,
+        "overall": 82,
+        "potential": 82,
+        "value": 16000000
+      },
+      {
+        "id": "laz-237712",
+        "name": "V. Castellanos",
+        "role": "ATT",
+        "age": 26,
+        "overall": 80,
+        "potential": 81,
+        "value": 25000000
+      },
+      {
+        "id": "laz-246242",
+        "name": "B. Dia",
+        "role": "ATT",
+        "age": 28,
+        "overall": 80,
+        "potential": 80,
+        "value": 21500000
+      },
+      {
+        "id": "laz-255001",
+        "name": "N. Rovella",
+        "role": "MID",
+        "age": 23,
+        "overall": 79,
+        "potential": 84,
+        "value": 24500000
+      },
+      {
+        "id": "laz-268804",
+        "name": "Mario Gila",
+        "role": "DEF",
+        "age": 24,
+        "overall": 79,
+        "potential": 84,
+        "value": 24000000
+      },
+      {
+        "id": "laz-251530",
+        "name": "Nuno Tavares",
+        "role": "DEF",
+        "age": 25,
+        "overall": 78,
+        "potential": 81,
+        "value": 17000000
+      },
+      {
+        "id": "laz-224031",
+        "name": "A. Marušić",
+        "role": "DEF",
+        "age": 32,
+        "overall": 78,
+        "potential": 78,
+        "value": 9500000
+      },
+      {
+        "id": "laz-235374",
+        "name": "M. Lazzari",
+        "role": "DEF",
+        "age": 31,
+        "overall": 78,
+        "potential": 78,
+        "value": 10000000
+      },
+      {
+        "id": "laz-211361",
+        "name": "D. Cataldi",
+        "role": "MID",
+        "age": 30,
+        "overall": 77,
+        "potential": 77,
+        "value": 9000000
+      },
+      {
+        "id": "laz-219985",
+        "name": "M. Vecino",
+        "role": "MID",
+        "age": 33,
+        "overall": 77,
+        "potential": 77,
+        "value": 6500000
+      },
+      {
+        "id": "laz-189505",
+        "name": "Pedro",
+        "role": "MID",
+        "age": 37,
+        "overall": 77,
+        "potential": 77,
+        "value": 3400000
+      },
+      {
+        "id": "laz-219581",
+        "name": "S. Gigot",
+        "role": "DEF",
+        "age": 31,
+        "overall": 77,
+        "potential": 77,
+        "value": 7000000
+      },
+      {
+        "id": "laz-248729",
+        "name": "G. Isaksen",
+        "role": "MID",
+        "age": 24,
+        "overall": 76,
+        "potential": 79,
+        "value": 10000000
+      },
+      {
+        "id": "laz-206098",
+        "name": "Patric",
+        "role": "DEF",
+        "age": 32,
+        "overall": 75,
+        "potential": 75,
+        "value": 3600000
+      },
+      {
+        "id": "laz-264257",
+        "name": "T. Noslin",
+        "role": "ATT",
+        "age": 25,
+        "overall": 74,
+        "potential": 77,
+        "value": 5500000
+      },
+      {
+        "id": "laz-243237",
+        "name": "L. Pellegrini",
+        "role": "DEF",
+        "age": 26,
+        "overall": 74,
+        "potential": 75,
+        "value": 4500000
+      },
+      {
+        "id": "laz-278032",
+        "name": "C. Mandas",
+        "role": "GK",
+        "age": 23,
+        "overall": 74,
+        "potential": 80,
+        "value": 5500000
+      },
+      {
+        "id": "laz-258890",
+        "name": "F. Dele-Bashiru",
+        "role": "MID",
+        "age": 24,
+        "overall": 73,
+        "potential": 77,
+        "value": 4400000
+      },
+      {
+        "id": "laz-263929",
+        "name": "M. Cancellieri",
+        "role": "MID",
+        "age": 22,
+        "overall": 72,
+        "potential": 79,
+        "value": 4800000
+      },
+      {
+        "id": "laz-210864",
+        "name": "E. Hysaj",
+        "role": "DEF",
+        "age": 31,
+        "overall": 72,
+        "potential": 72,
+        "value": 1700000
+      },
+      {
+        "id": "laz-226356",
+        "name": "M. Fares",
+        "role": "MID",
+        "age": 29,
+        "overall": 71,
+        "potential": 71,
+        "value": 1800000
+      },
+      {
+        "id": "laz-245275",
+        "name": "T. Bašić",
+        "role": "MID",
+        "age": 28,
+        "overall": 71,
+        "potential": 71,
+        "value": 1900000
+      },
+      {
+        "id": "laz-275163",
+        "name": "R. Belahyane",
+        "role": "MID",
+        "age": 21,
+        "overall": 68,
+        "potential": 77,
+        "value": 2700000
+      },
+      {
+        "id": "laz-266123",
+        "name": "O. Provstgaard",
+        "role": "DEF",
+        "age": 22,
+        "overall": 67,
+        "potential": 75,
+        "value": 2100000
+      },
+      {
+        "id": "laz-73162",
+        "name": "Cristo Muñoz",
+        "role": "MID",
+        "age": 20,
+        "overall": 65,
+        "potential": 75,
+        "value": 1600000
+      },
+      {
+        "id": "laz-272876",
+        "name": "D. Kamenović",
+        "role": "DEF",
+        "age": 24,
+        "overall": 63,
+        "potential": 68,
+        "value": 675000
+      },
+      {
+        "id": "laz-278338",
+        "name": "Saná Fernandes",
+        "role": "ATT",
+        "age": 19,
+        "overall": 62,
+        "potential": 75,
+        "value": 950000
+      },
+      {
+        "id": "laz-270217",
+        "name": "A. Furlanetto",
+        "role": "GK",
+        "age": 23,
+        "overall": 61,
+        "potential": 66,
+        "value": 400000
+      }
+    ]
+  },
+  {
+    "id": "fio",
+    "name": "Fiorentina",
+    "shortName": "FIO",
+    "players": [
+      {
+        "id": "fio-193080",
+        "name": "De Gea",
+        "role": "GK",
+        "age": 34,
+        "overall": 85,
+        "potential": 85,
+        "value": 9000000
+      },
+      {
+        "id": "fio-236610",
+        "name": "M. Kean",
+        "role": "ATT",
+        "age": 25,
+        "overall": 83,
+        "potential": 86,
+        "value": 48500000
+      },
+      {
+        "id": "fio-180930",
+        "name": "E. Džeko",
+        "role": "ATT",
+        "age": 39,
+        "overall": 81,
+        "potential": 81,
+        "value": 9000000
+      },
+      {
+        "id": "fio-223697",
+        "name": "R. Gosens",
+        "role": "DEF",
+        "age": 30,
+        "overall": 80,
+        "potential": 80,
+        "value": 18000000
+      },
+      {
+        "id": "fio-238004",
+        "name": "A. Guðmundsson",
+        "role": "ATT",
+        "age": 28,
+        "overall": 79,
+        "potential": 79,
+        "value": 18000000
+      },
+      {
+        "id": "fio-234112",
+        "name": "Dodô",
+        "role": "DEF",
+        "age": 26,
+        "overall": 78,
+        "potential": 79,
+        "value": 15000000
+      },
+      {
+        "id": "fio-260823",
+        "name": "N. Fagioli",
+        "role": "MID",
+        "age": 24,
+        "overall": 77,
+        "potential": 82,
+        "value": 16000000
+      },
+      {
+        "id": "fio-225439",
+        "name": "R. Mandragora",
+        "role": "MID",
+        "age": 28,
+        "overall": 77,
+        "potential": 77,
+        "value": 10500000
+      },
+      {
+        "id": "fio-240777",
+        "name": "L. Ranieri",
+        "role": "DEF",
+        "age": 26,
+        "overall": 76,
+        "potential": 79,
+        "value": 8500000
+      },
+      {
+        "id": "fio-253162",
+        "name": "H. Nicolussi Caviglia",
+        "role": "MID",
+        "age": 25,
+        "overall": 75,
+        "potential": 80,
+        "value": 7500000
+      },
+      {
+        "id": "fio-258976",
+        "name": "F. Parisi",
+        "role": "DEF",
+        "age": 24,
+        "overall": 75,
+        "potential": 80,
+        "value": 8000000
+      },
+      {
+        "id": "fio-248385",
+        "name": "R. Piccoli",
+        "role": "ATT",
+        "age": 24,
+        "overall": 75,
+        "potential": 80,
+        "value": 8500000
+      },
+      {
+        "id": "fio-244634",
+        "name": "S. Sohm",
+        "role": "MID",
+        "age": 24,
+        "overall": 74,
+        "potential": 79,
+        "value": 6500000
+      },
+      {
+        "id": "fio-235866",
+        "name": "C. Kouamé",
+        "role": "ATT",
+        "age": 27,
+        "overall": 74,
+        "potential": 74,
+        "value": 4600000
+      },
+      {
+        "id": "fio-238370",
+        "name": "M. Pongračić",
+        "role": "DEF",
+        "age": 27,
+        "overall": 74,
+        "potential": 76,
+        "value": 4500000
+      },
+      {
+        "id": "fio-206654",
+        "name": "Pablo Marí",
+        "role": "DEF",
+        "age": 31,
+        "overall": 74,
+        "potential": 74,
+        "value": 2900000
+      },
+      {
+        "id": "fio-278340",
+        "name": "P. Comuzzo",
+        "role": "DEF",
+        "age": 20,
+        "overall": 74,
+        "potential": 86,
+        "value": 9500000
+      },
+      {
+        "id": "fio-237499",
+        "name": "A. Sabiri",
+        "role": "MID",
+        "age": 28,
+        "overall": 73,
+        "potential": 73,
+        "value": 3100000
+      },
+      {
+        "id": "fio-242418",
+        "name": "T. Lamptey",
+        "role": "DEF",
+        "age": 24,
+        "overall": 73,
+        "potential": 76,
+        "value": 3800000
+      },
+      {
+        "id": "fio-266596",
+        "name": "J. Fazzini",
+        "role": "MID",
+        "age": 22,
+        "overall": 72,
+        "potential": 81,
+        "value": 5500000
+      },
+      {
+        "id": "fio-262236",
+        "name": "A. Richardson",
+        "role": "MID",
+        "age": 23,
+        "overall": 72,
+        "potential": 79,
+        "value": 4700000
+      },
+      {
+        "id": "fio-264044",
+        "name": "M. Viti",
+        "role": "DEF",
+        "age": 23,
+        "overall": 72,
+        "potential": 81,
+        "value": 4900000
+      },
+      {
+        "id": "fio-276682",
+        "name": "C. Ndour",
+        "role": "MID",
+        "age": 20,
+        "overall": 70,
+        "potential": 83,
+        "value": 3800000
+      },
+      {
+        "id": "fio-219584",
+        "name": "L. Lezzerini",
+        "role": "GK",
+        "age": 30,
+        "overall": 69,
+        "potential": 69,
+        "value": 925000
+      },
+      {
+        "id": "fio-275325",
+        "name": "T. Martinelli",
+        "role": "GK",
+        "age": 19,
+        "overall": 68,
+        "potential": 79,
+        "value": 2200000
+      },
+      {
+        "id": "fio-72180",
+        "name": "N. Fortini",
+        "role": "MID",
+        "age": 19,
+        "overall": 67,
+        "potential": 80,
+        "value": 2400000
+      },
+      {
+        "id": "fio-258104",
+        "name": "G. Infantino",
+        "role": "MID",
+        "age": 22,
+        "overall": 66,
+        "potential": 78,
+        "value": 2100000
+      },
+      {
+        "id": "fio-74926",
+        "name": "E. Kouadio",
+        "role": "DEF",
+        "age": 19,
+        "overall": 62,
+        "potential": 76,
+        "value": 875000
+      },
+      {
+        "id": "fio-80505",
+        "name": "E. Košpo",
+        "role": "DEF",
+        "age": 18,
+        "overall": 61,
+        "potential": 76,
+        "value": 725000
+      },
+      {
+        "id": "fio-80508",
+        "name": "R. Braschi",
+        "role": "ATT",
+        "age": 18,
+        "overall": 56,
+        "potential": 71,
+        "value": 325000
+      }
+    ]
+  },
+  {
+    "id": "bol",
+    "name": "Bologna",
+    "shortName": "BOL",
+    "players": [
+      {
+        "id": "bol-233556",
+        "name": "R. Orsolini",
+        "role": "MID",
+        "age": 28,
+        "overall": 82,
+        "potential": 82,
+        "value": 30500000
+      },
+      {
+        "id": "bol-202024",
+        "name": "R. Freuler",
+        "role": "MID",
+        "age": 33,
+        "overall": 81,
+        "potential": 81,
+        "value": 13000000
+      },
+      {
+        "id": "bol-189908",
+        "name": "Ł. Skorupski",
+        "role": "GK",
+        "age": 34,
+        "overall": 79,
+        "potential": 79,
+        "value": 3000000
+      },
+      {
+        "id": "bol-242280",
+        "name": "L. Ferguson",
+        "role": "MID",
+        "age": 25,
+        "overall": 78,
+        "potential": 81,
+        "value": 18500000
+      },
+      {
+        "id": "bol-192387",
+        "name": "C. Immobile",
+        "role": "ATT",
+        "age": 35,
+        "overall": 78,
+        "potential": 78,
+        "value": 6000000
+      },
+      {
+        "id": "bol-212404",
+        "name": "F. Bernardeschi",
+        "role": "MID",
+        "age": 31,
+        "overall": 77,
+        "potential": 77,
+        "value": 8500000
+      },
+      {
+        "id": "bol-240915",
+        "name": "Juan Miranda",
+        "role": "DEF",
+        "age": 25,
+        "overall": 76,
+        "potential": 79,
+        "value": 9000000
+      },
+      {
+        "id": "bol-234671",
+        "name": "J. Odgaard",
+        "role": "MID",
+        "age": 26,
+        "overall": 76,
+        "potential": 77,
+        "value": 9000000
+      },
+      {
+        "id": "bol-267861",
+        "name": "S. Castro",
+        "role": "ATT",
+        "age": 20,
+        "overall": 76,
+        "potential": 84,
+        "value": 16500000
+      },
+      {
+        "id": "bol-252021",
+        "name": "T. Dallinga",
+        "role": "ATT",
+        "age": 24,
+        "overall": 76,
+        "potential": 81,
+        "value": 11500000
+      },
+      {
+        "id": "bol-231207",
+        "name": "J. Lucumí",
+        "role": "DEF",
+        "age": 27,
+        "overall": 76,
+        "potential": 78,
+        "value": 8000000
+      },
+      {
+        "id": "bol-244270",
+        "name": "N. Moro",
+        "role": "MID",
+        "age": 27,
+        "overall": 75,
+        "potential": 76,
+        "value": 6000000
+      },
+      {
+        "id": "bol-239770",
+        "name": "N. Casale",
+        "role": "DEF",
+        "age": 27,
+        "overall": 75,
+        "potential": 77,
+        "value": 6000000
+      },
+      {
+        "id": "bol-266500",
+        "name": "J. Rowe",
+        "role": "MID",
+        "age": 22,
+        "overall": 75,
+        "potential": 82,
+        "value": 11500000
+      },
+      {
+        "id": "bol-252060",
+        "name": "T. Pobega",
+        "role": "MID",
+        "age": 25,
+        "overall": 74,
+        "potential": 77,
+        "value": 5500000
+      },
+      {
+        "id": "bol-252440",
+        "name": "N. Zortea",
+        "role": "MID",
+        "age": 26,
+        "overall": 74,
+        "potential": 75,
+        "value": 5000000
+      },
+      {
+        "id": "bol-271019",
+        "name": "G. Fabbian",
+        "role": "MID",
+        "age": 22,
+        "overall": 74,
+        "potential": 83,
+        "value": 9500000
+      },
+      {
+        "id": "bol-246656",
+        "name": "E. Holm",
+        "role": "DEF",
+        "age": 25,
+        "overall": 74,
+        "potential": 78,
+        "value": 5500000
+      },
+      {
+        "id": "bol-259748",
+        "name": "M. Vitík",
+        "role": "DEF",
+        "age": 22,
+        "overall": 74,
+        "potential": 80,
+        "value": 6000000
+      },
+      {
+        "id": "bol-210381",
+        "name": "C. Lykogiannis",
+        "role": "DEF",
+        "age": 31,
+        "overall": 73,
+        "potential": 73,
+        "value": 2200000
+      },
+      {
+        "id": "bol-268703",
+        "name": "N. Cambiaghi",
+        "role": "MID",
+        "age": 24,
+        "overall": 73,
+        "potential": 76,
+        "value": 4200000
+      },
+      {
+        "id": "bol-248342",
+        "name": "T. Heggem",
+        "role": "DEF",
+        "age": 26,
+        "overall": 73,
+        "potential": 76,
+        "value": 3500000
+      },
+      {
+        "id": "bol-269558",
+        "name": "B. Domínguez",
+        "role": "MID",
+        "age": 21,
+        "overall": 73,
+        "potential": 83,
+        "value": 7000000
+      },
+      {
+        "id": "bol-170320",
+        "name": "L. De Silvestri",
+        "role": "DEF",
+        "age": 37,
+        "overall": 71,
+        "potential": 71,
+        "value": 425000
+      },
+      {
+        "id": "bol-271577",
+        "name": "I. Sulemana",
+        "role": "MID",
+        "age": 22,
+        "overall": 71,
+        "potential": 80,
+        "value": 4000000
+      },
+      {
+        "id": "bol-240657",
+        "name": "F. Ravaglia",
+        "role": "GK",
+        "age": 25,
+        "overall": 70,
+        "potential": 75,
+        "value": 1900000
+      },
+      {
+        "id": "bol-75741",
+        "name": "M. Pessina",
+        "role": "GK",
+        "age": 17,
+        "overall": 52,
+        "potential": 74,
+        "value": 230000
+      }
+    ]
+  },
+  {
+    "id": "com",
+    "name": "Como",
+    "shortName": "COM",
+    "players": [
+      {
+        "id": "com-201153",
+        "name": "Morata",
+        "role": "ATT",
+        "age": 32,
+        "overall": 81,
+        "potential": 81,
+        "value": 21000000
+      },
+      {
+        "id": "com-277846",
+        "name": "Nico Paz",
+        "role": "MID",
+        "age": 20,
+        "overall": 79,
+        "potential": 89,
+        "value": 38500000
+      },
+      {
+        "id": "com-223671",
+        "name": "S. Posch",
+        "role": "DEF",
+        "age": 28,
+        "overall": 79,
+        "potential": 79,
+        "value": 16000000
+      },
+      {
+        "id": "com-262842",
+        "name": "M. Baturina",
+        "role": "MID",
+        "age": 22,
+        "overall": 78,
+        "potential": 83,
+        "value": 21500000
+      },
+      {
+        "id": "com-239977",
+        "name": "N. Kühn",
+        "role": "ATT",
+        "age": 25,
+        "overall": 78,
+        "potential": 81,
+        "value": 18500000
+      },
+      {
+        "id": "com-219693",
+        "name": "Diego Carlos",
+        "role": "DEF",
+        "age": 32,
+        "overall": 78,
+        "potential": 78,
+        "value": 9000000
+      },
+      {
+        "id": "com-246646",
+        "name": "M. Caqueret",
+        "role": "MID",
+        "age": 25,
+        "overall": 77,
+        "potential": 80,
+        "value": 14000000
+      },
+      {
+        "id": "com-199564",
+        "name": "Sergi Roberto",
+        "role": "MID",
+        "age": 33,
+        "overall": 77,
+        "potential": 77,
+        "value": 5000000
+      },
+      {
+        "id": "com-275324",
+        "name": "A. Diao",
+        "role": "MID",
+        "age": 19,
+        "overall": 76,
+        "potential": 87,
+        "value": 16000000
+      },
+      {
+        "id": "com-225149",
+        "name": "J. Butez",
+        "role": "GK",
+        "age": 30,
+        "overall": 76,
+        "potential": 76,
+        "value": 5000000
+      },
+      {
+        "id": "com-205566",
+        "name": "Alberto Moreno",
+        "role": "DEF",
+        "age": 32,
+        "overall": 75,
+        "potential": 75,
+        "value": 3900000
+      },
+      {
+        "id": "com-228349",
+        "name": "M. Vojvoda",
+        "role": "DEF",
+        "age": 30,
+        "overall": 75,
+        "potential": 75,
+        "value": 4800000
+      },
+      {
+        "id": "com-254579",
+        "name": "L. Da Cunha",
+        "role": "MID",
+        "age": 24,
+        "overall": 74,
+        "potential": 79,
+        "value": 6000000
+      },
+      {
+        "id": "com-75055",
+        "name": "Jesús Rodríguez",
+        "role": "MID",
+        "age": 19,
+        "overall": 74,
+        "potential": 85,
+        "value": 9000000
+      },
+      {
+        "id": "com-267991",
+        "name": "M. Perrone",
+        "role": "MID",
+        "age": 22,
+        "overall": 73,
+        "potential": 83,
+        "value": 6500000
+      },
+      {
+        "id": "com-261478",
+        "name": "T. Douvikas",
+        "role": "ATT",
+        "age": 25,
+        "overall": 73,
+        "potential": 76,
+        "value": 4099999
+      },
+      {
+        "id": "com-210719",
+        "name": "M. Kempf",
+        "role": "DEF",
+        "age": 30,
+        "overall": 73,
+        "potential": 73,
+        "value": 2500000
+      },
+      {
+        "id": "com-237586",
+        "name": "A. Dossena",
+        "role": "DEF",
+        "age": 26,
+        "overall": 73,
+        "potential": 76,
+        "value": 3500000
+      },
+      {
+        "id": "com-273875",
+        "name": "Álex Valle",
+        "role": "DEF",
+        "age": 21,
+        "overall": 72,
+        "potential": 82,
+        "value": 5000000
+      },
+      {
+        "id": "com-77163",
+        "name": "I. Smolčić",
+        "role": "DEF",
+        "age": 24,
+        "overall": 72,
+        "potential": 77,
+        "value": 3300000
+      },
+      {
+        "id": "com-223524",
+        "name": "E. Goldaniga",
+        "role": "DEF",
+        "age": 31,
+        "overall": 72,
+        "potential": 72,
+        "value": 1600000
+      },
+      {
+        "id": "com-196889",
+        "name": "S. Verdi",
+        "role": "MID",
+        "age": 32,
+        "overall": 71,
+        "potential": 71,
+        "value": 1500000
+      },
+      {
+        "id": "com-251464",
+        "name": "I. Van der Brempt",
+        "role": "DEF",
+        "age": 23,
+        "overall": 71,
+        "potential": 78,
+        "value": 3600000
+      },
+      {
+        "id": "com-279239",
+        "name": "J. Addai",
+        "role": "MID",
+        "age": 19,
+        "overall": 67,
+        "potential": 84,
+        "value": 2600000
+      },
+      {
+        "id": "com-270463",
+        "name": "N. Čavlina",
+        "role": "GK",
+        "age": 23,
+        "overall": 67,
+        "potential": 73,
+        "value": 1300000
+      },
+      {
+        "id": "com-70966",
+        "name": "Jacobo Ramón",
+        "role": "DEF",
+        "age": 20,
+        "overall": 64,
+        "potential": 78,
+        "value": 1300000
+      },
+      {
+        "id": "com-186611",
+        "name": "M. Vigorito",
+        "role": "GK",
+        "age": 35,
+        "overall": 64,
+        "potential": 64,
+        "value": 60000
+      },
+      {
+        "id": "com-80504",
+        "name": "Henrique Menke",
+        "role": "GK",
+        "age": 18,
+        "overall": 56,
+        "potential": 74,
+        "value": 325000
+      }
+    ]
+  },
+  {
+    "id": "tor",
+    "name": "Torino",
+    "shortName": "TOR",
+    "players": [
+      {
+        "id": "tor-215333",
+        "name": "D. Zapata",
+        "role": "ATT",
+        "age": 34,
+        "overall": 82,
+        "potential": 82,
+        "value": 15000000
+      },
+      {
+        "id": "tor-241095",
+        "name": "N. Vlašić",
+        "role": "MID",
+        "age": 27,
+        "overall": 79,
+        "potential": 79,
+        "value": 18500000
+      },
+      {
+        "id": "tor-201389",
+        "name": "C. Biraghi",
+        "role": "DEF",
+        "age": 32,
+        "overall": 78,
+        "potential": 78,
+        "value": 9500000
+      },
+      {
+        "id": "tor-226093",
+        "name": "C. Adams",
+        "role": "ATT",
+        "age": 28,
+        "overall": 77,
+        "potential": 77,
+        "value": 11000000
+      },
+      {
+        "id": "tor-241854",
+        "name": "P. Schuurs",
+        "role": "DEF",
+        "age": 25,
+        "overall": 77,
+        "potential": 82,
+        "value": 14000000
+      },
+      {
+        "id": "tor-211147",
+        "name": "V. Lazaro",
+        "role": "MID",
+        "age": 29,
+        "overall": 76,
+        "potential": 76,
+        "value": 7500000
+      },
+      {
+        "id": "tor-258683",
+        "name": "I. Ilić",
+        "role": "MID",
+        "age": 24,
+        "overall": 76,
+        "potential": 81,
+        "value": 11500000
+      },
+      {
+        "id": "tor-265650",
+        "name": "Saúl Coco",
+        "role": "DEF",
+        "age": 26,
+        "overall": 76,
+        "potential": 79,
+        "value": 8500000
+      },
+      {
+        "id": "tor-219145",
+        "name": "G. Maripán",
+        "role": "DEF",
+        "age": 31,
+        "overall": 76,
+        "potential": 76,
+        "value": 5000000
+      },
+      {
+        "id": "tor-216816",
+        "name": "G. Simeone",
+        "role": "ATT",
+        "age": 29,
+        "overall": 75,
+        "potential": 75,
+        "value": 5500000
+      },
+      {
+        "id": "tor-270141",
+        "name": "F. Israel",
+        "role": "GK",
+        "age": 25,
+        "overall": 75,
+        "potential": 80,
+        "value": 6500000
+      },
+      {
+        "id": "tor-213242",
+        "name": "A. Tameze",
+        "role": "MID",
+        "age": 31,
+        "overall": 74,
+        "potential": 74,
+        "value": 3000000
+      },
+      {
+        "id": "tor-273883",
+        "name": "C. Casadei",
+        "role": "MID",
+        "age": 22,
+        "overall": 74,
+        "potential": 83,
+        "value": 9500000
+      },
+      {
+        "id": "tor-264699",
+        "name": "K. Asllani",
+        "role": "MID",
+        "age": 23,
+        "overall": 74,
+        "potential": 79,
+        "value": 6000000
+      },
+      {
+        "id": "tor-248564",
+        "name": "Z. Aboukhlal",
+        "role": "MID",
+        "age": 25,
+        "overall": 74,
+        "potential": 79,
+        "value": 6000000
+      },
+      {
+        "id": "tor-225410",
+        "name": "A. Masina",
+        "role": "DEF",
+        "age": 31,
+        "overall": 74,
+        "potential": 74,
+        "value": 2900000
+      },
+      {
+        "id": "tor-258782",
+        "name": "A. Ismajli",
+        "role": "DEF",
+        "age": 28,
+        "overall": 74,
+        "potential": 74,
+        "value": 3600000
+      },
+      {
+        "id": "tor-278013",
+        "name": "S. Sazonov",
+        "role": "DEF",
+        "age": 23,
+        "overall": 73,
+        "potential": 78,
+        "value": 4200000
+      },
+      {
+        "id": "tor-255150",
+        "name": "N. Nkounkou",
+        "role": "DEF",
+        "age": 24,
+        "overall": 72,
+        "potential": 78,
+        "value": 3500000
+      },
+      {
+        "id": "tor-243481",
+        "name": "M. Pedersen",
+        "role": "DEF",
+        "age": 24,
+        "overall": 72,
+        "potential": 75,
+        "value": 3000000
+      },
+      {
+        "id": "tor-246457",
+        "name": "C. Ngonge",
+        "role": "MID",
+        "age": 25,
+        "overall": 72,
+        "potential": 75,
+        "value": 3100000
+      },
+      {
+        "id": "tor-248474",
+        "name": "T. Anjorin",
+        "role": "MID",
+        "age": 23,
+        "overall": 68,
+        "potential": 75,
+        "value": 2400000
+      },
+      {
+        "id": "tor-273932",
+        "name": "G. Gineitis",
+        "role": "MID",
+        "age": 21,
+        "overall": 68,
+        "potential": 79,
+        "value": 2700000
+      },
+      {
+        "id": "tor-235740",
+        "name": "A. Paleari",
+        "role": "GK",
+        "age": 32,
+        "overall": 68,
+        "potential": 68,
+        "value": 600000
+      },
+      {
+        "id": "tor-70480",
+        "name": "A. Njie",
+        "role": "ATT",
+        "age": 20,
+        "overall": 65,
+        "potential": 77,
+        "value": 1700000
+      },
+      {
+        "id": "tor-266257",
+        "name": "E. İlkhan",
+        "role": "MID",
+        "age": 21,
+        "overall": 63,
+        "potential": 74,
+        "value": 1100000
+      },
+      {
+        "id": "tor-253688",
+        "name": "M. Popa",
+        "role": "GK",
+        "age": 24,
+        "overall": 63,
+        "potential": 70,
+        "value": 825000
+      },
+      {
+        "id": "tor-273936",
+        "name": "A. Dembélé",
+        "role": "DEF",
+        "age": 21,
+        "overall": 62,
+        "potential": 73,
+        "value": 850000
+      },
+      {
+        "id": "tor-76027",
+        "name": "S. Perciun",
+        "role": "MID",
+        "age": 19,
+        "overall": 59,
+        "potential": 74,
+        "value": 525000
+      },
+      {
+        "id": "tor-75443",
+        "name": "T. Gabellini",
+        "role": "ATT",
+        "age": 18,
+        "overall": 56,
+        "potential": 71,
+        "value": 325000
+      }
+    ]
+  },
+  {
+    "id": "udi",
+    "name": "Udinese",
+    "shortName": "UDI",
+    "players": [
+      {
+        "id": "udi-242238",
+        "name": "O. Solet",
+        "role": "DEF",
+        "age": 25,
+        "overall": 78,
+        "potential": 83,
+        "value": 18500000
+      },
+      {
+        "id": "udi-238067",
+        "name": "N. Zaniolo",
+        "role": "MID",
+        "age": 25,
+        "overall": 76,
+        "potential": 77,
+        "value": 9000000
+      },
+      {
+        "id": "udi-223866",
+        "name": "S. Lovrič",
+        "role": "MID",
+        "age": 27,
+        "overall": 75,
+        "potential": 75,
+        "value": 6000000
+      },
+      {
+        "id": "udi-214658",
+        "name": "J. Karlström",
+        "role": "MID",
+        "age": 30,
+        "overall": 75,
+        "potential": 75,
+        "value": 4700000
+      },
+      {
+        "id": "udi-243249",
+        "name": "J. Ekkelenkamp",
+        "role": "MID",
+        "age": 25,
+        "overall": 74,
+        "potential": 77,
+        "value": 5500000
+      },
+      {
+        "id": "udi-257288",
+        "name": "M. Okoye",
+        "role": "GK",
+        "age": 25,
+        "overall": 74,
+        "potential": 78,
+        "value": 4600000
+      },
+      {
+        "id": "udi-225669",
+        "name": "K. Ehizibue",
+        "role": "DEF",
+        "age": 30,
+        "overall": 73,
+        "potential": 73,
+        "value": 2600000
+      },
+      {
+        "id": "udi-224438",
+        "name": "A. Buksa",
+        "role": "ATT",
+        "age": 28,
+        "overall": 73,
+        "potential": 73,
+        "value": 3100000
+      },
+      {
+        "id": "udi-220421",
+        "name": "H. Kamara",
+        "role": "DEF",
+        "age": 31,
+        "overall": 72,
+        "potential": 72,
+        "value": 1700000
+      },
+      {
+        "id": "udi-268656",
+        "name": "A. Zanoli",
+        "role": "DEF",
+        "age": 24,
+        "overall": 72,
+        "potential": 79,
+        "value": 4500000
+      },
+      {
+        "id": "udi-231743",
+        "name": "K. Davis",
+        "role": "ATT",
+        "age": 27,
+        "overall": 72,
+        "potential": 72,
+        "value": 2500000
+      },
+      {
+        "id": "udi-190324",
+        "name": "C. Kabasele",
+        "role": "DEF",
+        "age": 34,
+        "overall": 72,
+        "potential": 72,
+        "value": 750000
+      },
+      {
+        "id": "udi-261573",
+        "name": "T. Kristensen",
+        "role": "DEF",
+        "age": 23,
+        "overall": 72,
+        "potential": 81,
+        "value": 4900000
+      },
+      {
+        "id": "udi-275522",
+        "name": "L. Miller",
+        "role": "MID",
+        "age": 18,
+        "overall": 71,
+        "potential": 85,
+        "value": 4300000
+      },
+      {
+        "id": "udi-258615",
+        "name": "Oier Zarraga",
+        "role": "MID",
+        "age": 26,
+        "overall": 71,
+        "potential": 72,
+        "value": 2200000
+      },
+      {
+        "id": "udi-266803",
+        "name": "R. Sava",
+        "role": "GK",
+        "age": 23,
+        "overall": 71,
+        "potential": 81,
+        "value": 3600000
+      },
+      {
+        "id": "udi-259634",
+        "name": "J. Zemura",
+        "role": "DEF",
+        "age": 25,
+        "overall": 70,
+        "potential": 73,
+        "value": 1900000
+      },
+      {
+        "id": "udi-76411",
+        "name": "I. Gueye",
+        "role": "ATT",
+        "age": 18,
+        "overall": 70,
+        "potential": 83,
+        "value": 3700000
+      },
+      {
+        "id": "udi-229973",
+        "name": "J. Piotrowski",
+        "role": "MID",
+        "age": 27,
+        "overall": 69,
+        "potential": 70,
+        "value": 1600000
+      },
+      {
+        "id": "udi-272783",
+        "name": "A. Atta",
+        "role": "MID",
+        "age": 22,
+        "overall": 69,
+        "potential": 78,
+        "value": 3100000
+      },
+      {
+        "id": "udi-274270",
+        "name": "Rui Modesto",
+        "role": "MID",
+        "age": 25,
+        "overall": 69,
+        "potential": 70,
+        "value": 1700000
+      },
+      {
+        "id": "udi-246832",
+        "name": "V. Bayo",
+        "role": "ATT",
+        "age": 28,
+        "overall": 69,
+        "potential": 69,
+        "value": 1400000
+      },
+      {
+        "id": "udi-70252",
+        "name": "S. Goglichidze",
+        "role": "DEF",
+        "age": 21,
+        "overall": 69,
+        "potential": 79,
+        "value": 2900000
+      },
+      {
+        "id": "udi-271475",
+        "name": "N. Bertola",
+        "role": "DEF",
+        "age": 22,
+        "overall": 68,
+        "potential": 76,
+        "value": 2500000
+      },
+      {
+        "id": "udi-265194",
+        "name": "Iker Bravo",
+        "role": "ATT",
+        "age": 20,
+        "overall": 67,
+        "potential": 81,
+        "value": 2500000
+      },
+      {
+        "id": "udi-162297",
+        "name": "D. Padelli",
+        "role": "GK",
+        "age": 39,
+        "overall": 65,
+        "potential": 65,
+        "value": 80000
+      },
+      {
+        "id": "udi-72324",
+        "name": "M. Palma",
+        "role": "DEF",
+        "age": 17,
+        "overall": 62,
+        "potential": 82,
+        "value": 1000000
+      },
+      {
+        "id": "udi-80203",
+        "name": "A. Nunziante",
+        "role": "GK",
+        "age": 18,
+        "overall": 56,
+        "potential": 75,
+        "value": 325000
+      }
+    ]
+  },
+  {
+    "id": "gen",
+    "name": "Genoa",
+    "shortName": "GEN",
+    "players": [
+      {
+        "id": "gen-212207",
+        "name": "N. Stanciu",
+        "role": "MID",
+        "age": 32,
+        "overall": 77,
+        "potential": 77,
+        "value": 8500000
+      },
+      {
+        "id": "gen-231969",
+        "name": "R. Malinovskyi",
+        "role": "MID",
+        "age": 32,
+        "overall": 76,
+        "potential": 76,
+        "value": 6000000
+      },
+      {
+        "id": "gen-242633",
+        "name": "M. Frendrup",
+        "role": "MID",
+        "age": 24,
+        "overall": 76,
+        "potential": 80,
+        "value": 10500000
+      },
+      {
+        "id": "gen-263829",
+        "name": "Vitinha",
+        "role": "ATT",
+        "age": 25,
+        "overall": 75,
+        "potential": 79,
+        "value": 8000000
+      },
+      {
+        "id": "gen-244349",
+        "name": "J. Vásquez",
+        "role": "DEF",
+        "age": 26,
+        "overall": 75,
+        "potential": 78,
+        "value": 6500000
+      },
+      {
+        "id": "gen-215798",
+        "name": "M. Cornet",
+        "role": "MID",
+        "age": 28,
+        "overall": 74,
+        "potential": 74,
+        "value": 4200000
+      },
+      {
+        "id": "gen-256949",
+        "name": "A. Grønbæk",
+        "role": "MID",
+        "age": 24,
+        "overall": 74,
+        "potential": 79,
+        "value": 6500000
+      },
+      {
+        "id": "gen-236295",
+        "name": "Aarón Martín",
+        "role": "DEF",
+        "age": 28,
+        "overall": 74,
+        "potential": 74,
+        "value": 3800000
+      },
+      {
+        "id": "gen-256899",
+        "name": "L. Colombo",
+        "role": "ATT",
+        "age": 23,
+        "overall": 73,
+        "potential": 80,
+        "value": 6000000
+      },
+      {
+        "id": "gen-238516",
+        "name": "L. Østigård",
+        "role": "DEF",
+        "age": 25,
+        "overall": 73,
+        "potential": 80,
+        "value": 5500000
+      },
+      {
+        "id": "gen-240938",
+        "name": "Junior Messias",
+        "role": "MID",
+        "age": 34,
+        "overall": 72,
+        "potential": 72,
+        "value": 1100000
+      },
+      {
+        "id": "gen-222475",
+        "name": "M. Thorsby",
+        "role": "MID",
+        "age": 29,
+        "overall": 72,
+        "potential": 72,
+        "value": 2300000
+      },
+      {
+        "id": "gen-272602",
+        "name": "V. Carboni",
+        "role": "MID",
+        "age": 20,
+        "overall": 72,
+        "potential": 84,
+        "value": 5500000
+      },
+      {
+        "id": "gen-255934",
+        "name": "J. Onana",
+        "role": "MID",
+        "age": 25,
+        "overall": 71,
+        "potential": 74,
+        "value": 2500000
+      },
+      {
+        "id": "gen-239795",
+        "name": "C. Ekuban",
+        "role": "ATT",
+        "age": 31,
+        "overall": 71,
+        "potential": 71,
+        "value": 1600000
+      },
+      {
+        "id": "gen-206159",
+        "name": "S. Sabelli",
+        "role": "DEF",
+        "age": 32,
+        "overall": 71,
+        "potential": 71,
+        "value": 1300000
+      },
+      {
+        "id": "gen-201299",
+        "name": "N. Leali",
+        "role": "GK",
+        "age": 32,
+        "overall": 71,
+        "potential": 71,
+        "value": 925000
+      },
+      {
+        "id": "gen-202886",
+        "name": "B. Siegrist",
+        "role": "GK",
+        "age": 33,
+        "overall": 70,
+        "potential": 70,
+        "value": 525000
+      },
+      {
+        "id": "gen-264436",
+        "name": "M. Ellertsson",
+        "role": "MID",
+        "age": 23,
+        "overall": 69,
+        "potential": 76,
+        "value": 2800000
+      },
+      {
+        "id": "gen-260653",
+        "name": "B. Norton-Cuffy",
+        "role": "MID",
+        "age": 21,
+        "overall": 68,
+        "potential": 80,
+        "value": 3000000
+      },
+      {
+        "id": "gen-276477",
+        "name": "A. Marcandalli",
+        "role": "DEF",
+        "age": 23,
+        "overall": 66,
+        "potential": 75,
+        "value": 1800000
+      },
+      {
+        "id": "gen-276485",
+        "name": "P. Masini",
+        "role": "MID",
+        "age": 24,
+        "overall": 65,
+        "potential": 69,
+        "value": 1000000
+      },
+      {
+        "id": "gen-278350",
+        "name": "S. Fini",
+        "role": "MID",
+        "age": 19,
+        "overall": 65,
+        "potential": 82,
+        "value": 1800000
+      },
+      {
+        "id": "gen-271882",
+        "name": "S. Otoa",
+        "role": "DEF",
+        "age": 21,
+        "overall": 63,
+        "potential": 74,
+        "value": 1000000
+      },
+      {
+        "id": "gen-74930",
+        "name": "H. Cuenca",
+        "role": "ATT",
+        "age": 20,
+        "overall": 62,
+        "potential": 77,
+        "value": 950000
+      },
+      {
+        "id": "gen-225432",
+        "name": "D. Sommariva",
+        "role": "GK",
+        "age": 27,
+        "overall": 62,
+        "potential": 65,
+        "value": 400000
+      },
+      {
+        "id": "gen-74485",
+        "name": "J. Ekhator",
+        "role": "ATT",
+        "age": 18,
+        "overall": 61,
+        "potential": 78,
+        "value": 825000
+      },
+      {
+        "id": "gen-76172",
+        "name": "L. Venturino",
+        "role": "MID",
+        "age": 19,
+        "overall": 56,
+        "potential": 71,
+        "value": 350000
+      },
+      {
+        "id": "gen-81467",
+        "name": "E. Lysionok",
+        "role": "GK",
+        "age": 18,
+        "overall": 56,
+        "potential": 74,
+        "value": 325000
+      }
+    ]
+  },
+  {
+    "id": "sas",
+    "name": "Sassuolo",
+    "shortName": "SAS",
+    "players": [
+      {
+        "id": "sas-210935",
+        "name": "D. Berardi",
+        "role": "ATT",
+        "age": 30,
+        "overall": 82,
+        "potential": 82,
+        "value": 29500000
+      },
+      {
+        "id": "sas-243593",
+        "name": "A. Laurienté",
+        "role": "ATT",
+        "age": 26,
+        "overall": 80,
+        "potential": 80,
+        "value": 23000000
+      },
+      {
+        "id": "sas-191202",
+        "name": "N. Matić",
+        "role": "MID",
+        "age": 36,
+        "overall": 77,
+        "potential": 77,
+        "value": 2100000
+      },
+      {
+        "id": "sas-242725",
+        "name": "K. Thorstvedt",
+        "role": "MID",
+        "age": 26,
+        "overall": 75,
+        "potential": 76,
+        "value": 6500000
+      },
+      {
+        "id": "sas-235842",
+        "name": "A. Pinamonti",
+        "role": "ATT",
+        "age": 26,
+        "overall": 75,
+        "potential": 78,
+        "value": 7500000
+      },
+      {
+        "id": "sas-252027",
+        "name": "A. Vranckx",
+        "role": "MID",
+        "age": 22,
+        "overall": 74,
+        "potential": 79,
+        "value": 6500000
+      },
+      {
+        "id": "sas-268462",
+        "name": "D. Boloca",
+        "role": "MID",
+        "age": 26,
+        "overall": 74,
+        "potential": 74,
+        "value": 4600000
+      },
+      {
+        "id": "sas-254502",
+        "name": "S. Turati",
+        "role": "GK",
+        "age": 23,
+        "overall": 74,
+        "potential": 82,
+        "value": 8000000
+      },
+      {
+        "id": "sas-255561",
+        "name": "J. Doig",
+        "role": "DEF",
+        "age": 23,
+        "overall": 73,
+        "potential": 78,
+        "value": 4300000
+      },
+      {
+        "id": "sas-264207",
+        "name": "I. Koné",
+        "role": "MID",
+        "age": 23,
+        "overall": 72,
+        "potential": 79,
+        "value": 4700000
+      },
+      {
+        "id": "sas-251335",
+        "name": "W. Coulibaly",
+        "role": "DEF",
+        "age": 26,
+        "overall": 72,
+        "potential": 75,
+        "value": 2800000
+      },
+      {
+        "id": "sas-268511",
+        "name": "W. Cheddira",
+        "role": "ATT",
+        "age": 27,
+        "overall": 72,
+        "potential": 73,
+        "value": 2700000
+      },
+      {
+        "id": "sas-262396",
+        "name": "J. Idzes",
+        "role": "DEF",
+        "age": 25,
+        "overall": 72,
+        "potential": 77,
+        "value": 3100000
+      },
+      {
+        "id": "sas-233164",
+        "name": "A. Murić",
+        "role": "GK",
+        "age": 26,
+        "overall": 72,
+        "potential": 75,
+        "value": 2400000
+      },
+      {
+        "id": "sas-256856",
+        "name": "Fali Candé",
+        "role": "DEF",
+        "age": 27,
+        "overall": 71,
+        "potential": 73,
+        "value": 2000000
+      },
+      {
+        "id": "sas-263882",
+        "name": "A. Fadera",
+        "role": "MID",
+        "age": 23,
+        "overall": 71,
+        "potential": 77,
+        "value": 3000000
+      },
+      {
+        "id": "sas-241628",
+        "name": "N. Pierini",
+        "role": "ATT",
+        "age": 26,
+        "overall": 71,
+        "potential": 71,
+        "value": 2100000
+      },
+      {
+        "id": "sas-243497",
+        "name": "S. Walukiewicz",
+        "role": "DEF",
+        "age": 25,
+        "overall": 71,
+        "potential": 76,
+        "value": 2500000
+      },
+      {
+        "id": "sas-226108",
+        "name": "F. Romagna",
+        "role": "DEF",
+        "age": 28,
+        "overall": 70,
+        "potential": 70,
+        "value": 1400000
+      },
+      {
+        "id": "sas-262027",
+        "name": "T. Muharemović",
+        "role": "DEF",
+        "age": 22,
+        "overall": 70,
+        "potential": 79,
+        "value": 3300000
+      },
+      {
+        "id": "sas-265761",
+        "name": "C. Volpato",
+        "role": "ATT",
+        "age": 21,
+        "overall": 69,
+        "potential": 78,
+        "value": 3100000
+      },
+      {
+        "id": "sas-262474",
+        "name": "C. Odenthal",
+        "role": "DEF",
+        "age": 24,
+        "overall": 69,
+        "potential": 74,
+        "value": 1900000
+      },
+      {
+        "id": "sas-271006",
+        "name": "Y. Paz",
+        "role": "DEF",
+        "age": 23,
+        "overall": 68,
+        "potential": 74,
+        "value": 1800000
+      },
+      {
+        "id": "sas-248787",
+        "name": "L. Moro",
+        "role": "ATT",
+        "age": 24,
+        "overall": 68,
+        "potential": 73,
+        "value": 1800000
+      },
+      {
+        "id": "sas-270657",
+        "name": "E. Iannoni",
+        "role": "MID",
+        "age": 24,
+        "overall": 67,
+        "potential": 72,
+        "value": 1500000
+      },
+      {
+        "id": "sas-276705",
+        "name": "E. Pieragnolo",
+        "role": "DEF",
+        "age": 22,
+        "overall": 67,
+        "potential": 71,
+        "value": 1400000
+      },
+      {
+        "id": "sas-235806",
+        "name": "G. Satalino",
+        "role": "GK",
+        "age": 26,
+        "overall": 66,
+        "potential": 69,
+        "value": 850000
+      },
+      {
+        "id": "sas-257324",
+        "name": "L. Skjellerup",
+        "role": "ATT",
+        "age": 22,
+        "overall": 65,
+        "potential": 72,
+        "value": 1500000
+      },
+      {
+        "id": "sas-274702",
+        "name": "L. Lipani",
+        "role": "MID",
+        "age": 20,
+        "overall": 65,
+        "potential": 77,
+        "value": 1700000
+      },
+      {
+        "id": "sas-80811",
+        "name": "G. Zacchi",
+        "role": "GK",
+        "age": 21,
+        "overall": 62,
+        "potential": 71,
+        "value": 775000
+      }
+    ]
+  },
+  {
+    "id": "cag",
+    "name": "Cagliari",
+    "shortName": "CAG",
+    "players": [
+      {
+        "id": "cag-208596",
+        "name": "A. Belotti",
+        "role": "ATT",
+        "age": 31,
+        "overall": 77,
+        "potential": 77,
+        "value": 9000000
+      },
+      {
+        "id": "cag-220523",
+        "name": "Y. Mina",
+        "role": "DEF",
+        "age": 30,
+        "overall": 77,
+        "potential": 77,
+        "value": 8500000
+      },
+      {
+        "id": "cag-220534",
+        "name": "S. Luperto",
+        "role": "DEF",
+        "age": 28,
+        "overall": 76,
+        "potential": 77,
+        "value": 7000000
+      },
+      {
+        "id": "cag-255303",
+        "name": "E. Caprile",
+        "role": "GK",
+        "age": 23,
+        "overall": 76,
+        "potential": 83,
+        "value": 13000000
+      },
+      {
+        "id": "cag-268683",
+        "name": "M. Folorunsho",
+        "role": "MID",
+        "age": 27,
+        "overall": 75,
+        "potential": 75,
+        "value": 6000000
+      },
+      {
+        "id": "cag-247888",
+        "name": "S. Esposito",
+        "role": "ATT",
+        "age": 22,
+        "overall": 75,
+        "potential": 82,
+        "value": 11500000
+      },
+      {
+        "id": "cag-278668",
+        "name": "Zé Pedro",
+        "role": "DEF",
+        "age": 28,
+        "overall": 75,
+        "potential": 77,
+        "value": 5500000
+      },
+      {
+        "id": "cag-246877",
+        "name": "G. Gaetano",
+        "role": "MID",
+        "age": 25,
+        "overall": 74,
+        "potential": 77,
+        "value": 5500000
+      },
+      {
+        "id": "cag-252964",
+        "name": "G. Zappa",
+        "role": "DEF",
+        "age": 25,
+        "overall": 74,
+        "potential": 77,
+        "value": 5000000
+      },
+      {
+        "id": "cag-254982",
+        "name": "M. Adopo",
+        "role": "MID",
+        "age": 24,
+        "overall": 72,
+        "potential": 76,
+        "value": 3300000
+      },
+      {
+        "id": "cag-272725",
+        "name": "M. Prati",
+        "role": "MID",
+        "age": 21,
+        "overall": 71,
+        "potential": 81,
+        "value": 4000000
+      },
+      {
+        "id": "cag-259011",
+        "name": "Zito Luvumbo",
+        "role": "ATT",
+        "age": 23,
+        "overall": 71,
+        "potential": 78,
+        "value": 3800000
+      },
+      {
+        "id": "cag-248857",
+        "name": "M. Felici",
+        "role": "MID",
+        "age": 24,
+        "overall": 71,
+        "potential": 76,
+        "value": 2800000
+      },
+      {
+        "id": "cag-221331",
+        "name": "L. Mazzitelli",
+        "role": "MID",
+        "age": 29,
+        "overall": 71,
+        "potential": 71,
+        "value": 1800000
+      },
+      {
+        "id": "cag-274616",
+        "name": "S. Kılıçsoy",
+        "role": "ATT",
+        "age": 19,
+        "overall": 70,
+        "potential": 81,
+        "value": 3500000
+      },
+      {
+        "id": "cag-266636",
+        "name": "A. Obert",
+        "role": "DEF",
+        "age": 22,
+        "overall": 70,
+        "potential": 78,
+        "value": 3400000
+      },
+      {
+        "id": "cag-231073",
+        "name": "B. Radunović",
+        "role": "GK",
+        "age": 29,
+        "overall": 70,
+        "potential": 70,
+        "value": 1100000
+      },
+      {
+        "id": "cag-236311",
+        "name": "M. Rog",
+        "role": "MID",
+        "age": 29,
+        "overall": 68,
+        "potential": 68,
+        "value": 1200000
+      },
+      {
+        "id": "cag-229743",
+        "name": "A. Deiola",
+        "role": "MID",
+        "age": 29,
+        "overall": 68,
+        "potential": 68,
+        "value": 1200000
+      },
+      {
+        "id": "cag-205850",
+        "name": "L. Pavoletti",
+        "role": "ATT",
+        "age": 36,
+        "overall": 68,
+        "potential": 68,
+        "value": 400000
+      },
+      {
+        "id": "cag-261243",
+        "name": "A. Di Pardo",
+        "role": "MID",
+        "age": 25,
+        "overall": 67,
+        "potential": 68,
+        "value": 1200000
+      },
+      {
+        "id": "cag-73095",
+        "name": "R. Idrissi",
+        "role": "DEF",
+        "age": 20,
+        "overall": 65,
+        "potential": 75,
+        "value": 1500000
+      },
+      {
+        "id": "cag-278339",
+        "name": "M. Palestra",
+        "role": "MID",
+        "age": 20,
+        "overall": 65,
+        "potential": 80,
+        "value": 1700000
+      },
+      {
+        "id": "cag-78037",
+        "name": "J. Rodríguez",
+        "role": "DEF",
+        "age": 20,
+        "overall": 65,
+        "potential": 74,
+        "value": 1500000
+      },
+      {
+        "id": "cag-252942",
+        "name": "G. Borrelli",
+        "role": "ATT",
+        "age": 25,
+        "overall": 64,
+        "potential": 69,
+        "value": 875000
+      },
+      {
+        "id": "cag-271202",
+        "name": "N. Cavuoti",
+        "role": "MID",
+        "age": 22,
+        "overall": 61,
+        "potential": 72,
+        "value": 725000
+      },
+      {
+        "id": "cag-271199",
+        "name": "G. Ciocci",
+        "role": "GK",
+        "age": 23,
+        "overall": 59,
+        "potential": 67,
+        "value": 425000
+      },
+      {
+        "id": "cag-78004",
+        "name": "N. Pintus",
+        "role": "DEF",
+        "age": 20,
+        "overall": 58,
+        "potential": 72,
+        "value": 450000
+      }
+    ]
+  },
+  {
+    "id": "par",
+    "name": "Parma",
+    "shortName": "PAR",
+    "players": [
+      {
+        "id": "par-258714",
+        "name": "E. Valeri",
+        "role": "DEF",
+        "age": 26,
+        "overall": 75,
+        "potential": 76,
+        "value": 6000000
+      },
+      {
+        "id": "par-225475",
+        "name": "Hernani",
+        "role": "MID",
+        "age": 31,
+        "overall": 75,
+        "potential": 75,
+        "value": 3900000
+      },
+      {
+        "id": "par-252442",
+        "name": "E. Delprato",
+        "role": "DEF",
+        "age": 25,
+        "overall": 75,
+        "potential": 78,
+        "value": 7000000
+      },
+      {
+        "id": "par-237715",
+        "name": "P. Cutrone",
+        "role": "ATT",
+        "age": 27,
+        "overall": 75,
+        "potential": 75,
+        "value": 6000000
+      },
+      {
+        "id": "par-259150",
+        "name": "A. Ndiaye",
+        "role": "DEF",
+        "age": 23,
+        "overall": 75,
+        "potential": 81,
+        "value": 8000000
+      },
+      {
+        "id": "par-252794",
+        "name": "Adrián Bernabé",
+        "role": "MID",
+        "age": 24,
+        "overall": 74,
+        "potential": 81,
+        "value": 8000000
+      },
+      {
+        "id": "par-269276",
+        "name": "G. Oristanio",
+        "role": "MID",
+        "age": 22,
+        "overall": 74,
+        "potential": 80,
+        "value": 7000000
+      },
+      {
+        "id": "par-255981",
+        "name": "Z. Suzuki",
+        "role": "GK",
+        "age": 22,
+        "overall": 74,
+        "potential": 82,
+        "value": 8000000
+      },
+      {
+        "id": "par-257972",
+        "name": "O. Sørensen",
+        "role": "MID",
+        "age": 23,
+        "overall": 73,
+        "potential": 80,
+        "value": 6000000
+      },
+      {
+        "id": "par-261539",
+        "name": "M. Keita",
+        "role": "MID",
+        "age": 23,
+        "overall": 73,
+        "potential": 80,
+        "value": 5500000
+      },
+      {
+        "id": "par-255460",
+        "name": "J. Ondrejka",
+        "role": "MID",
+        "age": 22,
+        "overall": 73,
+        "potential": 82,
+        "value": 7000000
+      },
+      {
+        "id": "par-275401",
+        "name": "M. Frigan",
+        "role": "ATT",
+        "age": 22,
+        "overall": 73,
+        "potential": 83,
+        "value": 7000000
+      },
+      {
+        "id": "par-273884",
+        "name": "C. Ordoñez",
+        "role": "MID",
+        "age": 20,
+        "overall": 72,
+        "potential": 83,
+        "value": 4800000
+      },
+      {
+        "id": "par-236706",
+        "name": "P. Almqvist",
+        "role": "MID",
+        "age": 25,
+        "overall": 72,
+        "potential": 73,
+        "value": 2800000
+      },
+      {
+        "id": "par-240992",
+        "name": "N. Estévez",
+        "role": "MID",
+        "age": 29,
+        "overall": 71,
+        "potential": 71,
+        "value": 1600000
+      },
+      {
+        "id": "par-243154",
+        "name": "A. Benedyczak",
+        "role": "MID",
+        "age": 24,
+        "overall": 71,
+        "potential": 74,
+        "value": 2600000
+      },
+      {
+        "id": "par-192840",
+        "name": "M. Đurić",
+        "role": "ATT",
+        "age": 35,
+        "overall": 71,
+        "potential": 71,
+        "value": 800000
+      },
+      {
+        "id": "par-268913",
+        "name": "A. Circati",
+        "role": "DEF",
+        "age": 21,
+        "overall": 71,
+        "potential": 80,
+        "value": 3900000
+      },
+      {
+        "id": "par-272687",
+        "name": "B. Cremaschi",
+        "role": "MID",
+        "age": 20,
+        "overall": 68,
+        "potential": 80,
+        "value": 2900000
+      },
+      {
+        "id": "par-246164",
+        "name": "L. Valenti",
+        "role": "DEF",
+        "age": 26,
+        "overall": 68,
+        "potential": 71,
+        "value": 1400000
+      },
+      {
+        "id": "par-263229",
+        "name": "M. Pellegrino",
+        "role": "ATT",
+        "age": 23,
+        "overall": 67,
+        "potential": 74,
+        "value": 2100000
+      },
+      {
+        "id": "par-278436",
+        "name": "M. Troilo",
+        "role": "DEF",
+        "age": 22,
+        "overall": 66,
+        "potential": 79,
+        "value": 2000000
+      },
+      {
+        "id": "par-276736",
+        "name": "T. Begić",
+        "role": "MID",
+        "age": 22,
+        "overall": 65,
+        "potential": 73,
+        "value": 1600000
+      },
+      {
+        "id": "par-264294",
+        "name": "M. Løvik",
+        "role": "DEF",
+        "age": 21,
+        "overall": 65,
+        "potential": 76,
+        "value": 1500000
+      },
+      {
+        "id": "par-271385",
+        "name": "E. Corvi",
+        "role": "GK",
+        "age": 24,
+        "overall": 65,
+        "potential": 71,
+        "value": 925000
+      },
+      {
+        "id": "par-278280",
+        "name": "F. Rinaldi",
+        "role": "GK",
+        "age": 22,
+        "overall": 62,
+        "potential": 71,
+        "value": 775000
+      },
+      {
+        "id": "par-76026",
+        "name": "N. Trabucchi",
+        "role": "DEF",
+        "age": 17,
+        "overall": 56,
+        "potential": 71,
+        "value": 300000
+      },
+      {
+        "id": "par-81468",
+        "name": "G. Astaldi",
+        "role": "GK",
+        "age": 19,
+        "overall": 56,
+        "potential": 68,
+        "value": 300000
+      },
+      {
+        "id": "par-76121",
+        "name": "E. Plicco",
+        "role": "MID",
+        "age": 18,
+        "overall": 53,
+        "potential": 68,
+        "value": 220000
+      },
+      {
+        "id": "par-75647",
+        "name": "S. Britschgi",
+        "role": "DEF",
+        "age": 18,
+        "overall": 52,
+        "potential": 70,
+        "value": 190000
+      }
+    ]
+  },
+  {
+    "id": "lec",
+    "name": "Lecce",
+    "shortName": "LEC",
+    "players": [
+      {
+        "id": "lec-210676",
+        "name": "W. Falcone",
+        "role": "GK",
+        "age": 30,
+        "overall": 81,
+        "potential": 81,
+        "value": 17000000
+      },
+      {
+        "id": "lec-244717",
+        "name": "A. Gallo",
+        "role": "DEF",
+        "age": 25,
+        "overall": 75,
+        "potential": 78,
+        "value": 7000000
+      },
+      {
+        "id": "lec-227222",
+        "name": "F. Guilbert",
+        "role": "DEF",
+        "age": 30,
+        "overall": 75,
+        "potential": 75,
+        "value": 4800000
+      },
+      {
+        "id": "lec-246431",
+        "name": "R. Sottil",
+        "role": "MID",
+        "age": 26,
+        "overall": 75,
+        "potential": 76,
+        "value": 6500000
+      },
+      {
+        "id": "lec-230107",
+        "name": "L. Coulibaly",
+        "role": "MID",
+        "age": 29,
+        "overall": 74,
+        "potential": 74,
+        "value": 3600000
+      },
+      {
+        "id": "lec-275783",
+        "name": "Kialonda Gaspar",
+        "role": "DEF",
+        "age": 27,
+        "overall": 74,
+        "potential": 76,
+        "value": 4500000
+      },
+      {
+        "id": "lec-265732",
+        "name": "Àlex Sala",
+        "role": "MID",
+        "age": 24,
+        "overall": 72,
+        "potential": 76,
+        "value": 3100000
+      },
+      {
+        "id": "lec-239671",
+        "name": "Tete Morente",
+        "role": "MID",
+        "age": 28,
+        "overall": 72,
+        "potential": 72,
+        "value": 2400000
+      },
+      {
+        "id": "lec-273915",
+        "name": "N. Štulić",
+        "role": "ATT",
+        "age": 23,
+        "overall": 72,
+        "potential": 78,
+        "value": 3700000
+      },
+      {
+        "id": "lec-236838",
+        "name": "Y. Maleh",
+        "role": "MID",
+        "age": 26,
+        "overall": 71,
+        "potential": 72,
+        "value": 2200000
+      },
+      {
+        "id": "lec-271197",
+        "name": "L. Banda",
+        "role": "MID",
+        "age": 24,
+        "overall": 71,
+        "potential": 77,
+        "value": 3000000
+      },
+      {
+        "id": "lec-253139",
+        "name": "S. Pierotti",
+        "role": "MID",
+        "age": 24,
+        "overall": 70,
+        "potential": 76,
+        "value": 2500000
+      },
+      {
+        "id": "lec-243787",
+        "name": "Y. Ramadani",
+        "role": "MID",
+        "age": 29,
+        "overall": 70,
+        "potential": 70,
+        "value": 1400000
+      },
+      {
+        "id": "lec-259299",
+        "name": "J. Siebert",
+        "role": "DEF",
+        "age": 23,
+        "overall": 70,
+        "potential": 78,
+        "value": 3300000
+      },
+      {
+        "id": "lec-235266",
+        "name": "C. Früchtl",
+        "role": "GK",
+        "age": 25,
+        "overall": 70,
+        "potential": 76,
+        "value": 2000000
+      },
+      {
+        "id": "lec-271539",
+        "name": "Danilo Veiga",
+        "role": "DEF",
+        "age": 22,
+        "overall": 69,
+        "potential": 78,
+        "value": 3000000
+      },
+      {
+        "id": "lec-263657",
+        "name": "Þ. Helgason",
+        "role": "MID",
+        "age": 24,
+        "overall": 69,
+        "potential": 74,
+        "value": 2100000
+      },
+      {
+        "id": "lec-74502",
+        "name": "O. Kouassi",
+        "role": "DEF",
+        "age": 22,
+        "overall": 69,
+        "potential": 76,
+        "value": 2700000
+      },
+      {
+        "id": "lec-251790",
+        "name": "H. Rafia",
+        "role": "MID",
+        "age": 26,
+        "overall": 68,
+        "potential": 71,
+        "value": 1600000
+      },
+      {
+        "id": "lec-266501",
+        "name": "B. Pierret",
+        "role": "MID",
+        "age": 25,
+        "overall": 68,
+        "potential": 73,
+        "value": 1600000
+      },
+      {
+        "id": "lec-246649",
+        "name": "F. Marchwiński",
+        "role": "MID",
+        "age": 23,
+        "overall": 68,
+        "potential": 75,
+        "value": 2400000
+      },
+      {
+        "id": "lec-263469",
+        "name": "M. Kaba",
+        "role": "MID",
+        "age": 23,
+        "overall": 68,
+        "potential": 76,
+        "value": 2500000
+      },
+      {
+        "id": "lec-70555",
+        "name": "Tiago Gabriel",
+        "role": "DEF",
+        "age": 20,
+        "overall": 68,
+        "potential": 77,
+        "value": 2500000
+      },
+      {
+        "id": "lec-270888",
+        "name": "G. Jean",
+        "role": "DEF",
+        "age": 25,
+        "overall": 68,
+        "potential": 75,
+        "value": 2200000
+      },
+      {
+        "id": "lec-247668",
+        "name": "K. N'Dri",
+        "role": "MID",
+        "age": 24,
+        "overall": 67,
+        "potential": 73,
+        "value": 1600000
+      },
+      {
+        "id": "lec-271198",
+        "name": "M. Berisha",
+        "role": "MID",
+        "age": 21,
+        "overall": 67,
+        "potential": 78,
+        "value": 2300000
+      },
+      {
+        "id": "lec-80006",
+        "name": "M. Pérez",
+        "role": "DEF",
+        "age": 20,
+        "overall": 66,
+        "potential": 76,
+        "value": 1800000
+      },
+      {
+        "id": "lec-247528",
+        "name": "C. Ndaba",
+        "role": "DEF",
+        "age": 25,
+        "overall": 65,
+        "potential": 70,
+        "value": 975000
+      },
+      {
+        "id": "lec-279202",
+        "name": "F. Camarda",
+        "role": "ATT",
+        "age": 17,
+        "overall": 65,
+        "potential": 87,
+        "value": 2300000
+      },
+      {
+        "id": "lec-278623",
+        "name": "J. Samooja",
+        "role": "GK",
+        "age": 21,
+        "overall": 61,
+        "potential": 69,
+        "value": 650000
+      }
+    ]
+  },
+  {
+    "id": "ver",
+    "name": "Hellas Verona",
+    "shortName": "VER",
+    "players": [
+      {
+        "id": "ver-252308",
+        "name": "A. Al Musrati",
+        "role": "MID",
+        "age": 29,
+        "overall": 78,
+        "potential": 78,
+        "value": 12000000
+      },
+      {
+        "id": "ver-230065",
+        "name": "S. Serdar",
+        "role": "MID",
+        "age": 28,
+        "overall": 76,
+        "potential": 76,
+        "value": 7500000
+      },
+      {
+        "id": "ver-240900",
+        "name": "Unai Núñez",
+        "role": "DEF",
+        "age": 28,
+        "overall": 76,
+        "potential": 77,
+        "value": 7000000
+      },
+      {
+        "id": "ver-215363",
+        "name": "L. Montipò",
+        "role": "GK",
+        "age": 29,
+        "overall": 76,
+        "potential": 77,
+        "value": 6000000
+      },
+      {
+        "id": "ver-235658",
+        "name": "V. Nelsson",
+        "role": "DEF",
+        "age": 26,
+        "overall": 75,
+        "potential": 77,
+        "value": 6000000
+      },
+      {
+        "id": "ver-273564",
+        "name": "G. Orban",
+        "role": "ATT",
+        "age": 22,
+        "overall": 74,
+        "potential": 81,
+        "value": 8500000
+      },
+      {
+        "id": "ver-267681",
+        "name": "N. Valentini",
+        "role": "DEF",
+        "age": 24,
+        "overall": 73,
+        "potential": 79,
+        "value": 4400000
+      },
+      {
+        "id": "ver-205343",
+        "name": "J. Akpa Akpro",
+        "role": "MID",
+        "age": 32,
+        "overall": 72,
+        "potential": 72,
+        "value": 1800000
+      },
+      {
+        "id": "ver-255233",
+        "name": "T. Suslov",
+        "role": "MID",
+        "age": 23,
+        "overall": 72,
+        "potential": 80,
+        "value": 5000000
+      },
+      {
+        "id": "ver-234795",
+        "name": "A. Bernede",
+        "role": "MID",
+        "age": 26,
+        "overall": 72,
+        "potential": 75,
+        "value": 3000000
+      },
+      {
+        "id": "ver-241937",
+        "name": "A. Harroui",
+        "role": "MID",
+        "age": 27,
+        "overall": 72,
+        "potential": 72,
+        "value": 2500000
+      },
+      {
+        "id": "ver-237335",
+        "name": "G. Kastanos",
+        "role": "MID",
+        "age": 27,
+        "overall": 72,
+        "potential": 72,
+        "value": 2500000
+      },
+      {
+        "id": "ver-212153",
+        "name": "R. Gagliardini",
+        "role": "MID",
+        "age": 31,
+        "overall": 72,
+        "potential": 72,
+        "value": 1600000
+      },
+      {
+        "id": "ver-247497",
+        "name": "A. Bella-Kotchap",
+        "role": "DEF",
+        "age": 23,
+        "overall": 72,
+        "potential": 78,
+        "value": 3400000
+      },
+      {
+        "id": "ver-252000",
+        "name": "D. Bradarić",
+        "role": "DEF",
+        "age": 25,
+        "overall": 71,
+        "potential": 74,
+        "value": 2300000
+      },
+      {
+        "id": "ver-256453",
+        "name": "A. Sarr",
+        "role": "ATT",
+        "age": 24,
+        "overall": 71,
+        "potential": 76,
+        "value": 2900000
+      },
+      {
+        "id": "ver-248661",
+        "name": "C. Niasse",
+        "role": "MID",
+        "age": 25,
+        "overall": 71,
+        "potential": 76,
+        "value": 2500000
+      },
+      {
+        "id": "ver-266585",
+        "name": "D. Mosquera",
+        "role": "ATT",
+        "age": 25,
+        "overall": 71,
+        "potential": 74,
+        "value": 2500000
+      },
+      {
+        "id": "ver-238009",
+        "name": "M. Frese",
+        "role": "DEF",
+        "age": 27,
+        "overall": 69,
+        "potential": 69,
+        "value": 1300000
+      },
+      {
+        "id": "ver-241007",
+        "name": "E. Ebosse",
+        "role": "DEF",
+        "age": 26,
+        "overall": 69,
+        "potential": 73,
+        "value": 1700000
+      },
+      {
+        "id": "ver-273628",
+        "name": "T. Slotsager",
+        "role": "DEF",
+        "age": 19,
+        "overall": 69,
+        "potential": 82,
+        "value": 3100000
+      },
+      {
+        "id": "ver-270698",
+        "name": "Yellu Santiago",
+        "role": "MID",
+        "age": 21,
+        "overall": 68,
+        "potential": 80,
+        "value": 2800000
+      },
+      {
+        "id": "ver-210940",
+        "name": "S. Perilli",
+        "role": "GK",
+        "age": 30,
+        "overall": 67,
+        "potential": 67,
+        "value": 675000
+      },
+      {
+        "id": "ver-276314",
+        "name": "R. Belghali",
+        "role": "DEF",
+        "age": 23,
+        "overall": 66,
+        "potential": 73,
+        "value": 1600000
+      },
+      {
+        "id": "ver-80861",
+        "name": "F. Cham",
+        "role": "DEF",
+        "age": 19,
+        "overall": 66,
+        "potential": 75,
+        "value": 1800000
+      },
+      {
+        "id": "ver-80283",
+        "name": "Giovane",
+        "role": "ATT",
+        "age": 21,
+        "overall": 65,
+        "potential": 79,
+        "value": 1800000
+      },
+      {
+        "id": "ver-262930",
+        "name": "D. Oyegoke",
+        "role": "DEF",
+        "age": 22,
+        "overall": 62,
+        "potential": 73,
+        "value": 825000
+      },
+      {
+        "id": "ver-72322",
+        "name": "J. Ajayi",
+        "role": "ATT",
+        "age": 20,
+        "overall": 56,
+        "potential": 70,
+        "value": 350000
+      },
+      {
+        "id": "ver-72397",
+        "name": "G. Toniolo",
+        "role": "GK",
+        "age": 21,
+        "overall": 56,
+        "potential": 66,
+        "value": 275000
+      }
+    ]
+  },
+  {
+    "id": "pis",
+    "name": "Pisa",
+    "shortName": "PIS",
+    "players": [
+      {
+        "id": "pis-193082",
+        "name": "J. Cuadrado",
+        "role": "MID",
+        "age": 37,
+        "overall": 76,
+        "potential": 76,
+        "value": 2400000
+      },
+      {
+        "id": "pis-236593",
+        "name": "C. Stengs",
+        "role": "MID",
+        "age": 26,
+        "overall": 76,
+        "potential": 78,
+        "value": 9500000
+      },
+      {
+        "id": "pis-157481",
+        "name": "Raúl Albiol",
+        "role": "DEF",
+        "age": 39,
+        "overall": 76,
+        "potential": 76,
+        "value": 1300000
+      },
+      {
+        "id": "pis-240452",
+        "name": "M. Nzola",
+        "role": "ATT",
+        "age": 28,
+        "overall": 75,
+        "potential": 75,
+        "value": 6000000
+      },
+      {
+        "id": "pis-236898",
+        "name": "M. Aebischer",
+        "role": "MID",
+        "age": 28,
+        "overall": 74,
+        "potential": 74,
+        "value": 4200000
+      },
+      {
+        "id": "pis-240797",
+        "name": "M. Tramoni",
+        "role": "MID",
+        "age": 25,
+        "overall": 74,
+        "potential": 77,
+        "value": 5500000
+      },
+      {
+        "id": "pis-220048",
+        "name": "S. Scuffet",
+        "role": "GK",
+        "age": 29,
+        "overall": 72,
+        "potential": 74,
+        "value": 1900000
+      },
+      {
+        "id": "pis-233396",
+        "name": "I. Touré",
+        "role": "MID",
+        "age": 27,
+        "overall": 71,
+        "potential": 71,
+        "value": 2000000
+      },
+      {
+        "id": "pis-222959",
+        "name": "S. Moreo",
+        "role": "MID",
+        "age": 32,
+        "overall": 71,
+        "potential": 71,
+        "value": 1500000
+      },
+      {
+        "id": "pis-199174",
+        "name": "A. Caracciolo",
+        "role": "DEF",
+        "age": 35,
+        "overall": 71,
+        "potential": 71,
+        "value": 500000
+      },
+      {
+        "id": "pis-244274",
+        "name": "A. Šemper",
+        "role": "GK",
+        "age": 27,
+        "overall": 71,
+        "potential": 74,
+        "value": 1800000
+      },
+      {
+        "id": "pis-240661",
+        "name": "E. Vignato",
+        "role": "MID",
+        "age": 24,
+        "overall": 70,
+        "potential": 73,
+        "value": 2200000
+      },
+      {
+        "id": "pis-264480",
+        "name": "S. Canestrelli",
+        "role": "DEF",
+        "age": 24,
+        "overall": 70,
+        "potential": 75,
+        "value": 2200000
+      },
+      {
+        "id": "pis-252313",
+        "name": "M. Marin",
+        "role": "MID",
+        "age": 26,
+        "overall": 69,
+        "potential": 70,
+        "value": 1600000
+      },
+      {
+        "id": "pis-270658",
+        "name": "S. Angori",
+        "role": "MID",
+        "age": 21,
+        "overall": 69,
+        "potential": 78,
+        "value": 3100000
+      },
+      {
+        "id": "pis-240660",
+        "name": "M. Léris",
+        "role": "MID",
+        "age": 27,
+        "overall": 68,
+        "potential": 68,
+        "value": 1300000
+      },
+      {
+        "id": "pis-268790",
+        "name": "G. Piccinini",
+        "role": "MID",
+        "age": 24,
+        "overall": 68,
+        "potential": 75,
+        "value": 2400000
+      },
+      {
+        "id": "pis-229574",
+        "name": "A. Calabresi",
+        "role": "DEF",
+        "age": 29,
+        "overall": 68,
+        "potential": 68,
+        "value": 1000000
+      },
+      {
+        "id": "pis-70471",
+        "name": "E. Akinsanmiro",
+        "role": "MID",
+        "age": 20,
+        "overall": 67,
+        "potential": 80,
+        "value": 2400000
+      },
+      {
+        "id": "pis-252033",
+        "name": "Tomás Esteves",
+        "role": "DEF",
+        "age": 23,
+        "overall": 67,
+        "potential": 74,
+        "value": 1900000
+      },
+      {
+        "id": "pis-277309",
+        "name": "H. Meister",
+        "role": "ATT",
+        "age": 21,
+        "overall": 67,
+        "potential": 76,
+        "value": 2300000
+      },
+      {
+        "id": "pis-278354",
+        "name": "G. Bonfanti",
+        "role": "DEF",
+        "age": 22,
+        "overall": 67,
+        "potential": 76,
+        "value": 2100000
+      },
+      {
+        "id": "pis-205496",
+        "name": "Nicolas",
+        "role": "GK",
+        "age": 37,
+        "overall": 67,
+        "potential": 67,
+        "value": 110000
+      },
+      {
+        "id": "pis-253464",
+        "name": "M. Højholt",
+        "role": "MID",
+        "age": 24,
+        "overall": 66,
+        "potential": 72,
+        "value": 1200000
+      },
+      {
+        "id": "pis-81307",
+        "name": "Lorran",
+        "role": "MID",
+        "age": 18,
+        "overall": 65,
+        "potential": 80,
+        "value": 1700000
+      },
+      {
+        "id": "pis-278346",
+        "name": "Mateus Lusuardi",
+        "role": "DEF",
+        "age": 21,
+        "overall": 65,
+        "potential": 74,
+        "value": 1500000
+      },
+      {
+        "id": "pis-71296",
+        "name": "İ. Vural",
+        "role": "MID",
+        "age": 19,
+        "overall": 62,
+        "potential": 79,
+        "value": 1000000
+      },
+      {
+        "id": "pis-74876",
+        "name": "D. Denoon",
+        "role": "DEF",
+        "age": 21,
+        "overall": 62,
+        "potential": 73,
+        "value": 825000
+      },
+      {
+        "id": "pis-77379",
+        "name": "L. Buffon",
+        "role": "MID",
+        "age": 17,
+        "overall": 60,
+        "potential": 75,
+        "value": 550000
+      },
+      {
+        "id": "pis-80810",
+        "name": "J. Mbambi",
+        "role": "DEF",
+        "age": 17,
+        "overall": 53,
+        "potential": 74,
+        "value": 275000
+      }
+    ]
+  },
+  {
+    "id": "cre",
+    "name": "Cremonese",
+    "shortName": "CRE",
+    "players": [
+      {
+        "id": "cre-228413",
+        "name": "E. Audero",
+        "role": "GK",
+        "age": 28,
+        "overall": 78,
+        "potential": 79,
+        "value": 11000000
+      },
+      {
+        "id": "cre-208830",
+        "name": "J. Vardy",
+        "role": "ATT",
+        "age": 38,
+        "overall": 76,
+        "potential": 76,
+        "value": 2600000
+      },
+      {
+        "id": "cre-219932",
+        "name": "A. Sanabria",
+        "role": "ATT",
+        "age": 29,
+        "overall": 76,
+        "potential": 76,
+        "value": 7500000
+      },
+      {
+        "id": "cre-268573",
+        "name": "F. Baschirotto",
+        "role": "DEF",
+        "age": 28,
+        "overall": 75,
+        "potential": 76,
+        "value": 5500000
+      },
+      {
+        "id": "cre-207471",
+        "name": "F. Vázquez",
+        "role": "ATT",
+        "age": 36,
+        "overall": 74,
+        "potential": 74,
+        "value": 1400000
+      },
+      {
+        "id": "cre-233732",
+        "name": "D. Okereke",
+        "role": "ATT",
+        "age": 27,
+        "overall": 74,
+        "potential": 74,
+        "value": 4600000
+      },
+      {
+        "id": "cre-240970",
+        "name": "M. Payero",
+        "role": "MID",
+        "age": 26,
+        "overall": 73,
+        "potential": 74,
+        "value": 3600000
+      },
+      {
+        "id": "cre-237669",
+        "name": "A. Zerbin",
+        "role": "MID",
+        "age": 26,
+        "overall": 73,
+        "potential": 73,
+        "value": 3300000
+      },
+      {
+        "id": "cre-233968",
+        "name": "L. Sernicola",
+        "role": "DEF",
+        "age": 28,
+        "overall": 73,
+        "potential": 73,
+        "value": 2800000
+      },
+      {
+        "id": "cre-256669",
+        "name": "F. Moumbagna",
+        "role": "ATT",
+        "age": 25,
+        "overall": 73,
+        "potential": 77,
+        "value": 4300000
+      },
+      {
+        "id": "cre-268576",
+        "name": "M. Collocolo",
+        "role": "MID",
+        "age": 25,
+        "overall": 72,
+        "potential": 75,
+        "value": 3100000
+      },
+      {
+        "id": "cre-257353",
+        "name": "W. Bondo",
+        "role": "MID",
+        "age": 21,
+        "overall": 72,
+        "potential": 79,
+        "value": 4700000
+      },
+      {
+        "id": "cre-217338",
+        "name": "J. Vandeputte",
+        "role": "MID",
+        "age": 29,
+        "overall": 72,
+        "potential": 72,
+        "value": 2300000
+      },
+      {
+        "id": "cre-210964",
+        "name": "F. Ceccherini",
+        "role": "DEF",
+        "age": 33,
+        "overall": 72,
+        "potential": 72,
+        "value": 1100000
+      },
+      {
+        "id": "cre-190745",
+        "name": "M. Silvestri",
+        "role": "GK",
+        "age": 34,
+        "overall": 72,
+        "potential": 72,
+        "value": 400000
+      },
+      {
+        "id": "cre-271579",
+        "name": "F. Terracciano",
+        "role": "DEF",
+        "age": 22,
+        "overall": 71,
+        "potential": 80,
+        "value": 4000000
+      },
+      {
+        "id": "cre-230681",
+        "name": "G. Pezzella",
+        "role": "MID",
+        "age": 27,
+        "overall": 71,
+        "potential": 71,
+        "value": 2000000
+      },
+      {
+        "id": "cre-237502",
+        "name": "D. Johnsen",
+        "role": "ATT",
+        "age": 27,
+        "overall": 71,
+        "potential": 71,
+        "value": 2000000
+      },
+      {
+        "id": "cre-205363",
+        "name": "M. Bianchetti",
+        "role": "DEF",
+        "age": 32,
+        "overall": 71,
+        "potential": 71,
+        "value": 1200000
+      },
+      {
+        "id": "cre-205089",
+        "name": "M. Valoti",
+        "role": "MID",
+        "age": 31,
+        "overall": 70,
+        "potential": 70,
+        "value": 1300000
+      },
+      {
+        "id": "cre-220475",
+        "name": "A. Grassi",
+        "role": "MID",
+        "age": 30,
+        "overall": 70,
+        "potential": 70,
+        "value": 1500000
+      },
+      {
+        "id": "cre-263522",
+        "name": "J. Sarmiento",
+        "role": "MID",
+        "age": 23,
+        "overall": 70,
+        "potential": 78,
+        "value": 3500000
+      },
+      {
+        "id": "cre-223137",
+        "name": "F. Bonazzoli",
+        "role": "ATT",
+        "age": 28,
+        "overall": 70,
+        "potential": 70,
+        "value": 1600000
+      },
+      {
+        "id": "cre-275162",
+        "name": "T. Barbieri",
+        "role": "DEF",
+        "age": 22,
+        "overall": 69,
+        "potential": 76,
+        "value": 2700000
+      },
+      {
+        "id": "cre-237391",
+        "name": "M. De Luca",
+        "role": "ATT",
+        "age": 26,
+        "overall": 69,
+        "potential": 70,
+        "value": 1700000
+      },
+      {
+        "id": "cre-74071",
+        "name": "R. Floriani Mussolini",
+        "role": "MID",
+        "age": 22,
+        "overall": 68,
+        "potential": 77,
+        "value": 2700000
+      },
+      {
+        "id": "cre-277118",
+        "name": "M. Faye",
+        "role": "DEF",
+        "age": 20,
+        "overall": 68,
+        "potential": 82,
+        "value": 2700000
+      },
+      {
+        "id": "cre-74448",
+        "name": "F. Folino",
+        "role": "DEF",
+        "age": 23,
+        "overall": 64,
+        "potential": 73,
+        "value": 1200000
+      },
+      {
+        "id": "cre-278331",
+        "name": "L. Nava",
+        "role": "GK",
+        "age": 21,
+        "overall": 60,
+        "potential": 72,
+        "value": 525000
+      },
+      {
+        "id": "cre-75170",
+        "name": "D. Lordkipanidze",
+        "role": "MID",
+        "age": 20,
+        "overall": 56,
+        "potential": 68,
+        "value": 350000
+      }
+    ]
+  }
+]
